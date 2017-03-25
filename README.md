@@ -1,10 +1,10 @@
 # Leetcode
 
-##88. Merge Sorted Array   
+## 88. Merge Sorted Array   
 Given two sorted integer arrays nums1 and nums2, merge *nums2* into *nums1* as one sorted array.  
 hint: [Min-Heap](http://yuweiichen.com/merge-two-array/ "MergeSortedArray")
  
-##301 Remove Invalid Parentheses
+## 301 Remove Invalid Parentheses
 
 Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.
 
@@ -12,4 +12,10 @@ Remove the minimum number of invalid parentheses in order to make the input stri
 
 Given a string, sort it in decreasing order based on the frequency of characters.
 
-##
+## 461 Hamming Distance
+
+## 476 Number Complement
+solve it with vector<int>
+
+## 412 Fizz Buzz
+keyword : vector<string>
