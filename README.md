@@ -9,8 +9,7 @@ hint: [Min-Heap](http://yuweiichen.com/merge-two-array/ "MergeSortedArray")
 Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.
 
 ## 451. Sort Characters By Frequency  
-
-Given a string, sort it in decreasing order based on the frequency of characters.
+Given a string, sort it in decreasing order based on the frequency of characters.  
 
 ## 461 Hamming Distance
 
@@ -18,7 +17,15 @@ Given a string, sort it in decreasing order based on the frequency of characters
 solve it with vector<int>
 
 ## 412 Fizz Buzz
-keyword : vector<string>
+keyword : vector<string>  
+
+
+## 557. Reverse Words in a String III  
+keyword : use sstream lib, reverse and string basic sting operation  
+
+
+
+
 ## WAP interview
 the first problem is to find the swap k in n sequence 1,2,3...n.
 for starter, you will have to int number n and k, n means how many in order sequence and k means the number of swap. The output is how many possible combination with exactly k swaps.
