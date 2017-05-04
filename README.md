@@ -19,6 +19,8 @@ solve it with vector<int>
 ## 412 Fizz Buzz
 keyword : vector<string>  
 
+## 387 First Unique Character in a String
+solve it with min_element, <climits>  
 
 ## 557. Reverse Words in a String III  
 keyword : use sstream lib, reverse and string basic sting operation  
