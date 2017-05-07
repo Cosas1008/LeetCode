@@ -26,7 +26,8 @@ solve it with min_element, <climits>
 keyword : use sstream lib, reverse and string basic sting operation  
 
 
-
+## 575. Distribute Candies
+Keyword: set of max different values
 
 ## WAP interview
 the first problem is to find the swap k in n sequence 1,2,3...n.
