@@ -4,7 +4,7 @@
 // but this is the good practice of String, char, int and all kind of basic function in Java
 class Solution {
     public String largestNumber(int[] nums) {
-        int digit, deci = 10;
+        int digit, deci = 10; //largest integer 2,147,483,647 => 10 digits
 		int size = nums.length;
 		for(digit = 0; digit <= deci; digit++){
 			for(int i =0; i < size; i ++){

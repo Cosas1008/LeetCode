@@ -2,14 +2,15 @@
 
 ## Easy
 
-Practice 
-####data structure
+Practice DSA as following:
+
+#### data structure
 1. LinkedList
 2. Tree
 3. Hashtable
 4. Heap
 
-###Algorithm
+### Algorithm
 1. Dynamic Programming
 2. Sort(w/ or w/o std)
 
