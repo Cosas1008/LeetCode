@@ -20,8 +20,8 @@ bool cmp(int value1, int value2){
     string int2 = to_string(value2);
     string combination1 = int1 + int2;
     string combination2 = int2 + int1;
-    long double comboint1 = atof(combination1.c_str());
-    long double comboint2 = atof(combination2.c_str());
+    unsigned int comboint1 = atol(combination1.c_str());
+    unsigned int comboint2 = atol(combination2.c_str());
     if(comboint1 > comboint2){
         return true;
     }else{
@@ -39,9 +39,10 @@ public:
             s += to_string(*it);
         }
 
-        return s;
+        return (atol(s.c_str()) > 0)? s: "0";
     }
 };
+
 
 int main()
 {
