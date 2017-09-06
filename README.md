@@ -18,6 +18,18 @@ Practice DSA as following:
 ### 7 Reverse Integer
 kind of bit operation
 
+### 13 Roman to Integer
+map, unordered_map<char, int> is more better way without casing the char to string
+```cpp
+
+char c = string.at(i); // string to char
+string s = string(1,c); // converted to string again
+int i = c - '0';
+
+```
+
+this is better [Clean C++ solution](https://leetcode.com/problems/roman-to-integer/discuss/ "C++ clean solution")
+
 ### 88. Merge Sorted Array   
 Given two sorted integer arrays nums1 and nums2, merge *nums2* into *nums1* as one sorted array.  
 hint: [Min-Heap](http://yuweiichen.com/merge-two-array/ "MergeSortedArray")
