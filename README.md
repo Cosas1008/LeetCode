@@ -56,11 +56,21 @@ keyword : graph
 ### 387 First Unique Character in a String
 solve it with min_element, <climits>  
 
+### 392 Is Subsequence
+keyword : dynamic programming, Memory Limit Exceeded
+
+
 ### 557. Reverse Words in a String III  
 keyword : use sstream lib, reverse and string basic sting operation  
 
 ### 575. Distribute Candies
 Keyword: set of max different values
+
+
+### 674.cpp
+
+LeetCode Weekly Contest 49, simple Longest Continuous Increasing Subsequence question
+also check question 673 Number of Longest Increasing Subsequence
 
 ## Medium
 
