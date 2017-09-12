@@ -59,6 +59,7 @@ solve it with min_element, <climits>
 ### 392 Is Subsequence
 keyword : dynamic programming, Memory Limit Exceeded
 
+這寫得超棒 [Simple Solution](https://discuss.leetcode.com/topic/58078/simple-c-code-as-well-as-the-followup-solution)
 
 ### 557. Reverse Words in a String III  
 keyword : use sstream lib, reverse and string basic sting operation  
@@ -66,6 +67,9 @@ keyword : use sstream lib, reverse and string basic sting operation
 ### 575. Distribute Candies
 Keyword: set of max different values
 
+### 671 findSecondMinimumValue
+
+keyword: Tree walk BFS or DFS
 
 ### 674.cpp
 

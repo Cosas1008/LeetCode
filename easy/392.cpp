@@ -29,3 +29,18 @@ dynamic programming. [from stackoverflow]
 */
 
 // recommanded amendment
+class Solution {
+public:
+    bool isSubsequence(string s, string t) {
+        int si = 0;
+        for(int i = 0; i < t.size(); i ++){
+            if(t[i] == s[si]){
+                si++;
+            }
+        }
+        
+        return (si == s.size());
+    }
+};
+
+//

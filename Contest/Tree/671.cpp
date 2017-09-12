@@ -29,7 +29,7 @@ private:
 };
 
 
-//queue solution
+//queue solution, bfs
 
 class Solution {
 public:
