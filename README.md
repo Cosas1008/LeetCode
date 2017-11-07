@@ -76,6 +76,10 @@ keyword: Tree walk BFS or DFS
 LeetCode Weekly Contest 49, simple Longest Continuous Increasing Subsequence question
 also check question 673 Number of Longest Increasing Subsequence
 
+### 657. Judge Route Circle
+
+Basic C type string char operation
+
 ## Medium
 
 ### WAP interview
