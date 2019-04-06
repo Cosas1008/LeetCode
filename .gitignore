@@ -1,0 +1,6 @@
+.vscode/*
+!*/*.*
+!*/Makefile
+*/*.o
+*/*.exe
+*/.gitignore
