@@ -7,9 +7,9 @@
 #include <iostream>
 #include <string>
 
-int map[25]; // map of prime and # of char
+int map[26]; // map of prime and # of char
 
-void decode(int);
+int *decode(int);
 int findNum(int);
 
 using namespace std;
@@ -39,46 +39,71 @@ int main()
             if (count == 0)
             {
                 map[tmp--] = max_prime;
-                cout << "Number " << tmp <<" : " << max_prime << endl;
+                // cout << "Number " << tmp <<" : " << max_prime << endl;
             }
             max_prime--;
         }
         // step2: decode each set
+        int *prev, *curptr;
+        char ch = 'A';
         for (int i = 0; i < num; i++)
         {
             int cypher;
             cin >> cypher;
-            decode(cypher);
+            prev = curptr;
+            curptr = decode(cypher);
+            // one of the prev is in curptr
+            if (*prev == *curptr || *prev == *(curptr++))
+            {
+                //swap
+                int tmp = *prev;
+                *prev = *prev++;
+                *prev++ = tmp;
+            }
+            if (*curptr != *prev++)
+            {
+                // swap
+                int tmp = *curptr;
+                *curptr = *curptr++;
+                *curptr++ = tmp;
+            }
+            if (i == 0)
+                ans += (char)ch + *prev;
+            ans += (char)ch + *prev++;
         }
+        ans += (char)ch + *curptr++;
         cout << "Case #" << t << ": " << ans;
     }
     return 0;
 }
 
-void decode(int cypher)
+int *decode(int cypher)
 {
+    int *arr = new int[2];
     for (int i = 0; i < 26; i++)
     {
-        int trial = map[i];
-        cout << "Decode: " << cypher << " : " << trial;
-        // if ((cypher % trial) == 0)
-        // {
-        //     // find the prime
-        //     int prime2 = cypher / trial;
-        //     arr[0] = trial;
-        //     arr[1] = findNum(prime2);
-        //     cout << " Arr[0] " << trial << " : " << arr[1] << endl;
-        //     break;
-        // }
+        int trial = map[i + 1];
+        if ((cypher % trial) == 0)
+        {
+            // find the prime
+            int prime2 = cypher / trial;
+            arr[0] = i + 1;
+            if (findNum(prime2) == -1)
+                continue;
+            arr[1] = findNum(prime2);
+            cout << " Arr[0] " << arr[0] << " : " << arr[1] << endl;
+            return arr;
+        }
     }
+    return arr;
 }
 
 int findNum(int num)
 {
     for (int i = 0; i < 26; i++)
     {
-        if (map[i] == num)
-            return i;
+        if (map[i + 1] == num)
+            return i + 1;
     }
     return -1;
 }
