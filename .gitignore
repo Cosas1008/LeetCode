@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 */.vscode/*
-=======
-.vscode/*
->>>>>>> b22fe82c34c2f7ba137d3783287f00256443d752
 !*/*.*
-!*/Makefile
 */*.o
 */*.exe
-<<<<<<< HEAD
 */*Makefile
 */.gitignore
-=======
-*/.gitignore
->>>>>>> b22fe82c34c2f7ba137d3783287f00256443d752
