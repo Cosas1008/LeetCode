@@ -1,8 +1,9 @@
 class Solution {
 public:
+    typedef pair<int, pair<int, int>> ppi
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
         int m = nums1.size(), n = nums2.size();
-        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>> > pq;
+        priority_queue<ppi, vector<ppi>, greater<ppi> > pq;
         vector<vector<int>> res;
         if (m == 0 || n == 0) return res;
         for (int i = 0; i < m; i++) {
@@ -19,3 +20,10 @@ public:
         return res;   
     }
 };
+
+/*
+Python 1-line
+class Solution(object):
+    def kSmallestPairs(self, nums1, nums2, k):
+        return sorted(itertools.product(nums1, nums2), key=sum)[:k]
+*/
