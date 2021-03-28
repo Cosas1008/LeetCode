@@ -1,3 +1,4 @@
+// Brute-Force (TLE)
 #include<iostream>
 #include<vector>
 
@@ -8,8 +9,18 @@ int ask(vector<int>& arr){
     cout << arr[0] << " " << arr[1] << " " << arr[2] << endl;
     cin >> ret;
     return (ret == arr[0])? 0 : (ret == arr[1])? 1:2;
-}
+};
 
+bool checkAnswer(vector<int> ans)
+{
+    int result;
+    for(int i = 0; i < ans.size(); i++){
+        cout << sorted[i] << " ";
+    }
+    cout << endl;
+    cin  >> result;
+    return (result == 1);
+};
 int main()
 {
     int t;
@@ -37,12 +48,9 @@ int main()
                     }
                 }
             }
+            if(i != 0 && checkAnswer(sorted))
+                break;
         }
-        cout << "Case #" << ti+1 << ": ";
-        for(int i = 0; i < n; i++){
-            cout << sorted[i] << " ";
-        }
-        cout << endl;
     }
     return 0;
 }
