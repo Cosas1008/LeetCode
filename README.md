@@ -38,6 +38,10 @@ hint: [Min-Heap](http://yuweiichen.com/merge-two-array/ "MergeSortedArray")
 
 Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.
 
+### 416. Partition Equal Subset
+
+This technique using for loop from target to 0 is geneous
+
 ### 451. Sort Characters By Frequency  
 Given a string, sort it in decreasing order based on the frequency of characters.  
 
