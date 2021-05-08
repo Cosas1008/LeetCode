@@ -1,6 +1,6 @@
 class Solution {
 public:
-    // Solve without sort ( Not efficient)
+    // Solve without sort ( Not correct but close)
     vector<vector<int>> threeSum(vector<int>& nums) {
         int total_tuple = nums.size() / 3;
         if(total_tuple == 0) return {};
@@ -31,5 +31,34 @@ private:
         if(!duplicate){
             ans.push_back(tmp);
         }
+    }
+};
+// With sort
+class Solution {
+public:
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        vector<vector<int>> ans;
+        sort(nums.begin(), nums.end());
+        for(int i = 0 ; i < nums.size(); i++){
+            int target = -nums[i];
+            int left   = i + 1;
+            int right  = nums.size() - 1;
+            while(left < right){
+                int total = nums[left] + nums[right];
+                if(total < target){
+                    left++;
+                }else if(total > target){
+                    right--;
+                }else{
+                    vector<int> tuple = {nums[i], nums[left], nums[right]};
+                    ans.push_back(tuple);
+                    while(left < right && nums[left] == tuple[1]) left++;
+                    while(left < right && nums[right] == tuple[2]) right--;
+                }
+            }
+            while(i+1 < nums.size() && nums[i] == nums[i+1])
+                i++;
+        }
+        return ans;
     }
 };
