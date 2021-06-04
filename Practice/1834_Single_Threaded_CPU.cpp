@@ -1,31 +1,48 @@
+/*
+Input: tasks = [[1,2],[2,4],[3,2],[4,1]]
+Output: [0,2,3,1]
+Explanation: The events go as follows: 
+- At time = 1, task 0 is available to process. Available tasks = {0}.
+- Also at time = 1, the idle CPU starts processing task 0. Available tasks = {}.
+- At time = 2, task 1 is available to process. Available tasks = {1}.
+- At time = 3, task 2 is available to process. Available tasks = {1, 2}.
+- Also at time = 3, the CPU finishes task 0 and starts processing task 2 as it is the shortest. Available tasks = {1}.
+- At time = 4, task 3 is available to process. Available tasks = {1, 3}.
+- At time = 5, the CPU finishes task 2 and starts processing task 3 as it is the shortest. Available tasks = {1}.
+- At time = 6, the CPU finishes task 3 and starts processing task 1. Available tasks = {}.
+- At time = 10, the CPU finishes task 1 and becomes idle.
+*/
 // Time: O(NlogN)
 // Space: O(N)
 class Solution {
-    typedef pair<int, int> T; // processing time, index
 public:
     vector<int> getOrder(vector<vector<int>>& tasks) {
         priority_queue<T, vector<T>, greater<>> pq;
-        long n = tasks.size();
-        long time = 0;
-        long i = 0; // read pointer
-        for (int i = 0; i < n; ++i) tasks[i].push_back(i); // add index to each task
-        sort(begin(tasks), end(tasks));
         vector<int> enqueue_order;
-        while(i < n || pq.size()){
-            if (pq.empty()) {
-                time = max(time, (long)tasks[i][0]); // nothing in the heap? try updating the current time using the processing time of the next task in array
+        int n = tasks.size();
+        long time = 0;
+        for(int i = 0; i < n; i++){
+            tasks[i].push_back(i); // push index
+        }
+        sort(tasks.begin(), tasks.end(), [](const vector<int> & a, const vector<int> & b){ return a[0] < b[0];});
+        int i = 0;
+        while(i < n || !pq.empty()){
+            if(pq.empty()){
+                time = max(time, (long)tasks[i][0]);
             }
-            while (i < n && time >= tasks[i][0]) { // push all the tasks in the array whose enqueueTime <= currentTime into the heap
+            while(i < n && time >= tasks[i][0]){
                 pq.emplace(tasks[i][1], tasks[i][2]);
-                ++i;
+                i++;
             }
-            auto [pro, index] = pq.top();
+            auto [pro, idx] = pq.top();
             pq.pop();
-            time += pro; // handle this task and increase the current time by the processingTime
-            enqueue_order.push_back(index);
+            time += pro;
+            enqueue_order.push_back(idx);
         }
         return enqueue_order;
     }
+private:
+    typedef pair<int, int> T; // processing time, index
 };
 
 
