@@ -1,4 +1,11 @@
-## 943 Find the Shortest Superstring
+
+# List:
+
+
+- [x] 1690 Stone Game VII
+- [x] 1770 Maximum Score from Performing Multiplication Operation
+
+### 943 Find the Shortest Superstring
 
 Classic TSP problem
 ```java
