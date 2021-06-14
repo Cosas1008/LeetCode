@@ -11,7 +11,6 @@
 ### Heap (Generally hard problem )
 `tips: solved by priority_queue`   
 
-
 1. 1705 Maximum Number of Eaten Apples
 2. 857 Minimum Cost to Hire K Workers
 3. 871 Minimum Number of Refueling Stops
