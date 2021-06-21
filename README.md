@@ -12,7 +12,8 @@ Practice DSA as following:
 
 ### Algorithm
 1. Dynamic Programming
-2. Sort(w/ or w/o std)
+2. Sliding Window
+3. Greedy
 
 
 ### 7 Reverse Integer
@@ -28,7 +29,10 @@ int i = c - '0';
 
 ```
 
-this is better [Clean C++ solution](https://leetcode.com/problems/roman-to-integer/discuss/ "C++ clean solution")
+# Reference
+1. [Clean C++ solution](https://leetcode.com/problems/roman-to-integer/discuss/ "C++ clean solution")
+2. 
+
 
 ### 88. Merge Sorted Array   
 Given two sorted integer arrays nums1 and nums2, merge *nums2* into *nums1* as one sorted array.  
@@ -52,7 +56,6 @@ solve it with vector<int>
 
 ### 412 Fizz Buzz
 keyword : vector<string>  
-
 
 ### 463 Island Perimeter  
 keyword : graph
