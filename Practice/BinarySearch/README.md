@@ -1,5 +1,18 @@
-More Good Binary Search Problems
+# Binary Search
 
+- [x] 483 Smallest Good Base ( Hard )
+- [ ] 658 
+- [ ] 668
+- [ ] 719
+
+## More Good Binary Search Problems
+
+# 105 & 106 Pre/Post + Inorder to build Binary Tree
+
+Interesting problem..
+
+
+## Fun TODO
 Here are some similar binary search problems.
 Also find more explanations.
 Good luck and have fun.

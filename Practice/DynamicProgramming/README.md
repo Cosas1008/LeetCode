@@ -1,8 +1,13 @@
 # List:
-- [ ] 10   Regular Expression Matching
+- [x] 10   Regular Expression Matching
+- [x] 44   Wildcard Matching
+- [ ] 1397 Find All Good String ( Hard )
 - [x] 1690 Stone Game VII
 - [x] 1770 Maximum Score from Performing Multiplication Operation
 
+### 44 Wildcard Matching
+
+This can also solved by [greedy](https://leetcode.com/problems/wildcard-matching/discuss/17888/Simple-greedy-Python-with-regexes)
 ### 213 House Robber
 Rob house without two adjacent housess
 
