@@ -1,15 +1,18 @@
-- [ ] 3    Longest Substring Without Repeating Characters		  	  
-- [ ] 76   Minimum Window Substring			  
+- [x] 3    Longest Substring Without Repeating Characters		  	  
+- [x] 76   Minimum Window Substring			  
+- [x] 340  Longest Substring with At Most K Distinct Characters   
+- [x] 424  Longest Repeating Character Replacement			  ( Recommanded) 
+- [x] 992  Subarrays with K Different Integers        
+- [x] 1658	Minimum Operations to Reduce X to Zero ( similar to two sum, hash)
+
+## TODO
 - [ ] 159  Longest Substring with At Most Two Distinct Characters	  	  
 - [ ] 239  Sliding Window Maximum			  
-- [ ] 340  Longest Substring with At Most K Distinct Characters   
 - [ ] 395  Longest Substring with At Least K Repeating Characters			  
-- [ ] 424  Longest Repeating Character Replacement			   
 - [ ] 480  Sliding Window Median			  
 - [ ] 567  Permutation in String			    
 - [ ] 727  Minimum Window Subsequence    
 - [ ] 978  Longest Turbulent Subarray	  
-- [x] 992  Subarrays with K Different Integers        
 - [ ] 995	Minimum Number of K Consecutive Bit Flips			     
 - [ ] 1004	Max Consecutive Ones III			  
 - [ ] 1100	Find K-Length Substrings With No Repeated Characters	  
@@ -24,11 +27,9 @@
 - [ ] 1456	Maximum Number of Vowels in a Substring of Given Length			  
 - [ ] 1498	Number of Subsequences That Satisfy the Given Sum Condition			  
 - [ ] 1499	Max Value of Equation			  
-- [ ] 1658	Minimum Operations to Reduce X to Zero
 - [ ] 1358    Number of Substrings Containing All Three Characters
 - [ ] Count Number of Nice Subarrays
 - [ ] Replace the Substring for Balanced String
-- [x] Subarrays with K Different Integers
 - [ ] Fruit Into Baskets
 - [ ] Shortest Subarray with Sum at Least K
 - [ ] Minimum Size Subarray Sum
