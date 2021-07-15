@@ -1,18 +1,19 @@
-- [x] 3    Longest Substring Without Repeating Characters		  	  
-- [x] 76   Minimum Window Substring			  
-- [x] 340  Longest Substring with At Most K Distinct Characters   
-- [x] 424  Longest Repeating Character Replacement			  ( Recommanded) 
-- [x] 992  Subarrays with K Different Integers        
+- [x] 3     Longest Substring Without Repeating Characters		  	  
+- [x] 76    Minimum Window Substring			  
+- [x] 209   Minimum Size Subarray Sum
+- [x] 340   Longest Substring with At Most K Distinct Characters   
+- [x] 424   Longest Repeating Character Replacement			  ( Recommanded) 
+- [x] 992   Subarrays with K Different Integers        
 - [x] 1658	Minimum Operations to Reduce X to Zero ( similar to two sum, hash)
 
 ## TODO
-- [ ] 159  Longest Substring with At Most Two Distinct Characters	  	  
-- [ ] 239  Sliding Window Maximum			  
-- [ ] 395  Longest Substring with At Least K Repeating Characters			  
-- [ ] 480  Sliding Window Median			  
-- [ ] 567  Permutation in String			    
-- [ ] 727  Minimum Window Subsequence    
-- [ ] 978  Longest Turbulent Subarray	  
+- [ ] 159   Longest Substring with At Most Two Distinct Characters	  	  
+- [ ] 239   Sliding Window Maximum			  
+- [ ] 395   Longest Substring with At Least K Repeating Characters			  
+- [ ] 480   Sliding Window Median			  
+- [ ] 567   Permutation in String			    
+- [ ] 727   Minimum Window Subsequence    
+- [ ] 978   Longest Turbulent Subarray	  
 - [ ] 995	Minimum Number of K Consecutive Bit Flips			     
 - [ ] 1004	Max Consecutive Ones III			  
 - [ ] 1100	Find K-Length Substrings With No Repeated Characters	  
@@ -27,13 +28,15 @@
 - [ ] 1456	Maximum Number of Vowels in a Substring of Given Length			  
 - [ ] 1498	Number of Subsequences That Satisfy the Given Sum Condition			  
 - [ ] 1499	Max Value of Equation			  
-- [ ] 1358    Number of Substrings Containing All Three Characters
-- [ ] Count Number of Nice Subarrays
+- [ ] 1358  Number of Substrings Containing All Three Characters
+- [ ] 1248 Count Number of Nice Subarrays
 - [ ] Replace the Substring for Balanced String
 - [ ] Fruit Into Baskets
 - [ ] Shortest Subarray with Sum at Least K
-- [ ] Minimum Size Subarray Sum
-
+Binary Subarrays With Sum
+Subarrays with K Different Integers
+Fruit Into Baskets
+Shortest Subarray with Sum at Least K
 
 For 992. Subarrays with K Different Integers:
 ```
