@@ -43,19 +43,19 @@ public:
 class Solution {
 public:
     string shortestCommonSupersequence(string a, string b) {
-    string res = "";
-    vector<vector<short>> dp(a.size() + 1, vector<short>(b.size() + 1));
+        string res = "";
+        vector<vector<short>> dp(a.size() + 1, vector<short>(b.size() + 1));
 
-    for (int i = 1; i <= a.size(); ++i)
-        for (int j = 1; j <= b.size(); ++j)
-            dp[i][j] =  (a[i - 1] == b[j - 1])? dp[i - 1][j - 1] + 1: max(dp[i - 1][j], dp[i][j - 1]);
-  
-    for (int i = a.size(), j = b.size(); i || j; ) {
-        // cout << res  << endl;
-        if (i > 0 && dp[i][j] == dp[i - 1][j]) res = a[--i] + res;
-        else if (j > 0 && dp[i][j] == dp[i][j - 1]) res = b[--j] + res;
-        else res = a[--i] + res, --j;
+        for (int i = 1; i <= a.size(); ++i)
+            for (int j = 1; j <= b.size(); ++j)
+                dp[i][j] =  (a[i - 1] == b[j - 1])? dp[i - 1][j - 1] + 1: max(dp[i - 1][j], dp[i][j - 1]);
+    
+        for (int i = a.size(), j = b.size(); i || j; ) {
+            // cout << res  << endl;
+            if (i > 0 && dp[i][j] == dp[i - 1][j]) res = a[--i] + res;
+            else if (j > 0 && dp[i][j] == dp[i][j - 1]) res = b[--j] + res;
+            else res = a[--i] + res, --j;
+        }
+    return res;
     }
-  return res;
-}
 };

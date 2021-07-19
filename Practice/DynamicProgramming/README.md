@@ -1,6 +1,8 @@
 # List:
 - [x] 10   Regular Expression Matching
 - [x] 44   Wildcard Matching
+- [x] 312  Burst Balloons
+- [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1690 Stone Game VII
 - [x] 1770 Maximum Score from Performing Multiplication Operation
