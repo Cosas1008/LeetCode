@@ -1,7 +1,7 @@
 # Trie Related problem
 
 - [ ] 208
-- [ ] 421
+- [x] 421 Maximum XOR of Two Numbers in an Array
 - [ ] 336 Palindrome Pairs
 - [x] 1268 Search Suggestions System (use trie)
 - [ ] 1707 Maximum XOR with Elements from Array
@@ -9,7 +9,7 @@
 - [ ] 1938 Maximum Genetic Difference Query 
 ## TODO:
 
-421 and 1707
+1707
 
 Trie Struct
 ```cpp
