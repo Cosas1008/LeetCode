@@ -15,23 +15,23 @@ Output: [3,9,20,null,null,15,7]
  */
 class Solution {
 public:
-    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        int size = postorder.size();
-        pick = size - 1;
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+        unordered_map<int,int> mp;
         for(int i = 0; i < inorder.size(); i++){
             mp[inorder[i]] = i;
         }
-        return constructTree(postorder, 0, size -1);
+        return helper(preorder, mp, 0, 0, inorder.size()-1);
     }
-    TreeNode* constructTree(vector<int>& postorder, int left, int right){
-        if(left>right) return NULL;
-        int val = postorder[pick--];
-        TreeNode* root=new TreeNode(val);
-        root->right = constructTree(postorder,mp[val]+1,right);
-        root->left  = constructTree(postorder,left,mp[val]-1);
+    TreeNode* helper(vector<int>& pre, unordered_map<int,int>& mp, int pick, int left, int right){
+        int val = pre[pick];
+        int mid = mp[val];
+        TreeNode* root = new TreeNode(val);
+        if(mid > left){
+            root->left = helper(pre, mp, pick+1, left, mid-1);
+        }
+        if(mid < right){
+            root->right = helper(pre, mp, pick+mid-left+1, mid+1, right);
+        }
         return root;
     }
-private:
-    int pick;
-    unordered_map<int,int> mp;
 };
