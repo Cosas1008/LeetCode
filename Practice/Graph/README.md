@@ -61,5 +61,6 @@ private:
 ### Problem Set
 - [x] 684 Redundent Connection
 - [x] 685 Redundent Connection II (directed graph)
+- [x] 743 Network Delay Time
 - [x] 778 Swim in Rising Water
 - [x] 787 Cheapest Flight Within K Step

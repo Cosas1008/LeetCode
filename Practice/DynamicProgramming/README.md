@@ -2,6 +2,7 @@
 - [x] 10   Regular Expression Matching
 - [x] 44   Wildcard Matching
 - [x] 312  Burst Balloons
+- [x] 718  Max Length of Repeated Subarray
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1690 Stone Game VII
@@ -27,6 +28,10 @@ int rob_house(vector<int>& house){
     return dp[n];
 }
 ```
+### 718 Max Length of Repeated Subarray
+
+nums1 and nums2
+> Hint:  reverse for
 
 ### 943 Find the Shortest Superstring
 
