@@ -4,9 +4,12 @@
 - [x] 139  Word Break
 - [ ] 140  Word Break II 
 - [x] 312  Burst Balloons
+- [x] 494  Target Sum
+- [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [ ] 1397 Find All Good String ( Hard )
+- [x] 1473 Paint House III ( need to use recursive to solve this )
 - [x] 1690 Stone Game VII
 - [x] 1770 Maximum Score from Performing Multiplication Operation
 

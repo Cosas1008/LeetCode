@@ -19,7 +19,7 @@
 
 ### Heap (Generally hard problem )
 `tips: solved by priority_queue`   
-
+- [x] 436 Find Right Interval ( practice lower_bound)
 - [x] 1705 Maximum Number of Eaten Apples
 - [x] 857 Minimum Cost to Hire K Workers
 - [x] 871 Minimum Number of Refueling Stops
