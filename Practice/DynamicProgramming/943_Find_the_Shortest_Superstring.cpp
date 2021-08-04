@@ -1,4 +1,8 @@
 /*
+Given an array of strings words, return the smallest string that contains each string in words as a substring. 
+If there are multiple valid strings of the smallest length, return any of them.
+You may assume that no string in words is a substring of another string in words.
+
 Example 1:
 
 Input: words = ["alex","loves","leetcode"]
@@ -18,7 +22,8 @@ public:
     string shortestSuperstring(vector<string>& words) {
         int N = words.size();
         vector<vector<int>> path(N, vector<int>(N, 0));
-        vector<vector<int>> dp(1<<N, vector<int>(N, -1));
+        vector<vector<string>> dp(1<<N, vector<string>(N));
+        // 1. Find path
         for(int i = 0; i < N; i++) {
             for(int j = 0; j < N; j++) {
                 if(i == j) continue;
@@ -30,28 +35,25 @@ public:
                 }
             }
         }
+        // 2. Initialize DP
+        for(int i=0; i<N; ++i) dp[1<<i][i] += words[i];
         
-        for(int i = 0; i < N; i++) dp[1<<i][i] = 0;
-
-        int last = -1, total = -1;
-        for(int mask = 0; mask < (1 << N); mask++) {
-            for(int i = 0; i < N; i++) {
-                if(((mask >> i)&1) == 0) continue;
-                int pmask = mask ^ (1 << i);
-                for(int j = 0; j < N; j++) {
-                    if((pmask >> j)&1 == 0) continue;
-                    
-                    if(dp[pmask][j] != -1 && dp[mask][i] < dp[pmask][j] + dist[j][i]) {
-                        dp[mask][i] = dp[pmask][j] + dist[j][i];
-                        parent[mask][i] = j;
-                    }
-                }
-                
-                if(mask == (1 << N)-1 && dp[mask][i] > total) {
-                    total = dp[mask][i];
-                    last = i;
+        // 3. 
+        for(int mask=1; mask<(1<<N); ++mask){
+            for(int j=0; j<N; ++j) if((mask&(1<<j))>0){
+                for(int i=0; i<N; ++i) if(i!=j && (mask&(1<<i))>0){
+                    string tmp = dp[mask^(1<<j)][i]+words[j].substr(path[i][j]);
+                    if(dp[mask][j].empty() || tmp.size()<dp[mask][j].size())
+                        dp[mask][j] = tmp;
                 }
             }
         }
+        // 4. get the result
+        int last = (1<<N)-1;
+        string res = dp[last][0];
+        for(int i=1; i<N; ++i) if(dp[last][i].size()<res.size()){
+            res = dp[last][i];
+        }
+        return res;
     }
 };

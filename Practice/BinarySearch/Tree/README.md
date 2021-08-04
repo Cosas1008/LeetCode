@@ -8,6 +8,9 @@
 * 98 Validate BST
 * 230 Kth Smallest Element in a BST
 
+# 105 & 106 Pre/Post + Inorder to build Binary Tree
+
+Interesting problem..
 ### Postorder Traversal  
 
 * 1120 Maximum Average Subtree
