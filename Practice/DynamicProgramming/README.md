@@ -1,7 +1,7 @@
 # List:
 - [x] 10   Regular Expression Matching
 - [x] 44   Wildcard Matching
-- [ ] 139  Word Break
+- [x] 139  Word Break
 - [ ] 140  Word Break II 
 - [x] 312  Burst Balloons
 - [x] 718  Max Length of Repeated Subarray
