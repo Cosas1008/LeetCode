@@ -2,15 +2,15 @@
 - [x] 10   Regular Expression Matching
 - [x] 44   Wildcard Matching
 - [x] 139  Word Break
-- [ ] 140  Word Break II 
+- [x] 140  Word Break II 
 - [x] 312  Burst Balloons
 - [x] 494  Target Sum
 - [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
+- [x] 877  Stone Game
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1473 Paint House III ( need to use recursive to solve this )
-- [x] 1690 Stone Game VII
 - [x] 1770 Maximum Score from Performing Multiplication Operation
 
 ### 44 Wildcard Matching
@@ -67,3 +67,12 @@ int longestPalindromeSubseq(string s) {
     return dp[n][n];
 }
 ```
+
+### Stone Game
+- [x] 877  Stone Game
+- [ ] 1140 Stone Game II
+- [x] 1406 Stone Game III
+- [ ] 1563 Stone Game V
+- [ ] 1686 Stone Game VI
+- [x] 1690 Stone Game VII
+- [ ] 1872 Stone Game VIII
