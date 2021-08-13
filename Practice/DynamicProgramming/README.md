@@ -1,11 +1,16 @@
 # List:
 - [x] 10   Regular Expression Matching
 - [x] 44   Wildcard Matching
+- [x] 139  Word Break
+- [x] 140  Word Break II 
 - [x] 312  Burst Balloons
+- [x] 494  Target Sum
+- [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
+- [x] 877  Stone Game
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [ ] 1397 Find All Good String ( Hard )
-- [x] 1690 Stone Game VII
+- [x] 1473 Paint House III ( need to use recursive to solve this )
 - [x] 1770 Maximum Score from Performing Multiplication Operation
 
 ### 44 Wildcard Matching
@@ -35,35 +40,9 @@ nums1 and nums2
 
 ### 943 Find the Shortest Superstring
 
-Classic TSP problem
+> 6/1, 8/3 redo    
 
-```java
-// start TSP DP
-for (int i = 1; i < (1 << n); i++) { // for all the combinations of the nodes
-    Arrays.fill(dp[i], Integer.MAX_VALUE); // the length =MAX_VALUE
-    for (int j = 0; j < n; j++) { //for each node
-        if ((i & (1 << j)) > 0) {      // if the node is in the set. Assume i = 10010(18), j = 100(4), then set={1,4}, the node is 2. The node is not in this set
-            int prev = i - (1 << j);      // the set without j. Assume i = 10010, j = 10 then pre = 10000
-            if (prev == 0) {            // if j is the only one
-                dp[i][j] = A[j].length();  // the whole word
-            } else {
-                for (int k = 0; k < n; k++) {    //try all the possible nodes before j
-                    if (dp[prev][k] < Integer.MAX_VALUE && dp[prev][k] + graph[k][j] < dp[i][j]) { // if k is valid and the length could be reduced
-                        dp[i][j] = dp[prev][k] + graph[k][j];   //update the result
-                        path[i][j] = k; // update the node before j
-                    }
-                }
-            }
-        }
-        if (i == (1 << n) - 1 && dp[i][j] < min) {  // if i == 11...1111 means the node set contains all the nodes, and the length is smaller
-            min = dp[i][j];  //update the result
-            last = j;   //update the last node
-        }
-    }
-}
-```
-
-Longest Common Subsequence
+### Longest Common Subsequence
 
 ![LCS](https://assets.leetcode.com/users/votrubac/image_1564691262.png)
 
@@ -88,3 +67,12 @@ int longestPalindromeSubseq(string s) {
     return dp[n][n];
 }
 ```
+
+### Stone Game
+- [x] 877  Stone Game
+- [ ] 1140 Stone Game II
+- [x] 1406 Stone Game III
+- [ ] 1563 Stone Game V
+- [ ] 1686 Stone Game VI
+- [x] 1690 Stone Game VII
+- [ ] 1872 Stone Game VIII

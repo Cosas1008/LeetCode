@@ -2,14 +2,11 @@
 
 - [x] 483 Smallest Good Base ( Hard )
 - [ ] 658 
-- [ ] 668
-- [ ] 719
+- [x] 668  Kth Smallest in Multiply Matrix
+- [x] 719  Find K-th smallest pair
+- [x] 1894 Find the Student that Will Replace the Chalk
 
 ## More Good Binary Search Problems
-
-# 105 & 106 Pre/Post + Inorder to build Binary Tree
-
-Interesting problem..
 
 
 ## Fun TODO
