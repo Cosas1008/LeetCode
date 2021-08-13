@@ -7,6 +7,9 @@
 - [ ] 305 Number of Island II
 - [ ] 85. Maximal Rectangle
 - [ ] 121
+- [ ] 827
+- [ ] 1206
+- [ ] 1472
 
 ### Practice
 
@@ -28,3 +31,6 @@
 
 ### Union Find
 - [x] 737 Sentence Similarity II
+
+### Really Hard
+- [ ] 1206 Design Skiplist
