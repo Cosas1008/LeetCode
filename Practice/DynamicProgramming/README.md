@@ -72,7 +72,8 @@ int longestPalindromeSubseq(string s) {
 - [x] 877  Stone Game
 - [ ] 1140 Stone Game II
 - [x] 1406 Stone Game III
-- [ ] 1563 Stone Game V
+- [x] 1510 Stone Game IV
+- [x] 1563 Stone Game V   ( 312 Burst Balloons )
 - [ ] 1686 Stone Game VI
 - [x] 1690 Stone Game VII
 - [ ] 1872 Stone Game VIII
