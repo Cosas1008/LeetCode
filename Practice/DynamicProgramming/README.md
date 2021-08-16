@@ -3,8 +3,11 @@
 - [x] 44   Wildcard Matching
 - [x] 139  Word Break
 - [x] 140  Word Break II 
+- [x] 300  Longest Increasing Subsequence
 - [x] 312  Burst Balloons
+- [x] 416  Partition Equal Subset.cpp
 - [x] 494  Target Sum
+- [x] 546  Remove Boxes ( Easily TLE, Hard )
 - [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
 - [x] 877  Stone Game
@@ -33,6 +36,11 @@ int rob_house(vector<int>& house){
     return dp[n];
 }
 ```
+
+### 416. Partition Equal Subset
+
+This technique using for loop from target to 0 is geneous
+
 ### 718 Max Length of Repeated Subarray
 
 nums1 and nums2

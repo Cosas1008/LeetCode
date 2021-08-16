@@ -9,3 +9,6 @@ std::next_permutation(nums.begin(),nums.end(),[](int x, int y){return  x<=y ; })
 1. N-Queen   
 2. Sudoku   
 
+
+# TODO List
+- [ ] 301  Remove Invalid Parentheses

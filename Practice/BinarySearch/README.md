@@ -5,6 +5,7 @@
 - [x] 668  Kth Smallest in Multiply Matrix
 - [x] 719  Find K-th smallest pair
 - [x] 1894 Find the Student that Will Replace the Chalk
+- [x] 1964 Find the Longest Valid Obstacle Course at Each Position
 
 ## More Good Binary Search Problems
 

@@ -6,6 +6,7 @@ Greedy is most common used ( first-come-up naive ) algorithm to solve contest pr
 - [x] 135 Candy
 - [x] 502 IPO
 - [x] 1640 Check Array Formation Through Concatenation
+- [x] 1963 Min Number of Swaps to Make the String Balanced
 
 
 ### Jump Game
