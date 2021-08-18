@@ -15,10 +15,14 @@ Interesting problem..
 
 * 1120 Maximum Average Subtree
 
+### 654 Maximum Binary Tree
+![Cartesian Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Cartesian_tree.svg/480px-Cartesian_tree.svg.png)
+
 
 # Problems
-- [x] 95  Unique BST II (TL;DR)
-- [x] 230 Kth Smallest Element in a BST
+- [x] 95   Unique BST II (TL;DR)
+- [x] 230  Kth Smallest Element in a BST
+- [x] 654  Maximum Binary Tree ( *Cartesian tree* )
 - [x] 1150 Two Sum BSTs
 
 * Follow up for 230
