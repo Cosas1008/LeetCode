@@ -11,4 +11,4 @@ std::next_permutation(nums.begin(),nums.end(),[](int x, int y){return  x<=y ; })
 
 
 # TODO List
-- [ ] 301  Remove Invalid Parentheses
+- [x] 301  Remove Invalid Parentheses

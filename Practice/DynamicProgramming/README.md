@@ -1,6 +1,7 @@
 # List:
 - [x] 10   Regular Expression Matching
 - [x] 44   Wildcard Matching
+- [x] 91   Decode Ways
 - [x] 139  Word Break
 - [x] 140  Word Break II 
 - [x] 300  Longest Increasing Subsequence
@@ -8,6 +9,7 @@
 - [x] 416  Partition Equal Subset.cpp
 - [x] 494  Target Sum
 - [x] 546  Remove Boxes ( Easily TLE, Hard )
+- [ ] 639  Decode Ways II 
 - [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
 - [x] 877  Stone Game
