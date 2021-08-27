@@ -14,6 +14,7 @@
 - [x] 718  Max Length of Repeated Subarray
 - [x] 877  Stone Game
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
+- [x] 1187 Make Array Strictly Increasing ( Hard )
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1473 Paint House III ( need to use recursive to solve this )
 - [x] 1770 Maximum Score from Performing Multiplication Operation

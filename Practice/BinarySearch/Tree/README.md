@@ -24,6 +24,7 @@ Interesting problem..
 - [x] 230  Kth Smallest Element in a BST
 - [x] 654  Maximum Binary Tree ( *Cartesian tree* )
 - [x] 1150 Two Sum BSTs
+- [x] 1339 Max Product of Splitted Binary Tree
 
 * Follow up for 230
 Assume we have to modify and query K-th smallest element in a BST frequently, how to optimize   
