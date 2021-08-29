@@ -18,7 +18,7 @@
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1473 Paint House III ( need to use recursive to solve this )
 - [x] 1770 Maximum Score from Performing Multiplication Operation
-
+- [x] 1986 Min Number of Work Session to Finish the Tasks ( Masked BIT DP)
 ### 44 Wildcard Matching
 
 This can also solved by [greedy](https://leetcode.com/problems/wildcard-matching/discuss/17888/Simple-greedy-Python-with-regexes)

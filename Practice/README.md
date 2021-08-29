@@ -1,3 +1,9 @@
+### Contest
+
+Geneous Collection
+#### 1987 Number of Unique Good Subsequence
+#### 1986 Min Number of Work Session to Finish the Tasks (classic TSP) 
+
 ### TODO List
 - [ ] 464. Can I Win
 - [ ] 974. Subarray Sums Divisible by K

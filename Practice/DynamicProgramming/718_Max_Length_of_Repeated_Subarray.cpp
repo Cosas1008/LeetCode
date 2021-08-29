@@ -17,13 +17,6 @@ public:
                 ret = max(ret, dp[j] = (nums1[i] == nums2[j])? dp[j+1] + 1: 0);
             }
         }
-        // for(int i = 0; i < n1; i++){
-        //     cout << " i " << i << endl;
-        //     for(int j = 0; j < n2; j++){
-        //         cout << " " << dp[i+1][j+1];
-        //     }
-        //     cout << endl;
-        // }
         return ret;
     }
 };

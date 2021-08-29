@@ -1,3 +1,9 @@
+/*
+Input: s = "rabbbit", t = "rabbit"
+Output: 3
+Explanation:
+As shown below, there are 3 ways you can generate "rabbit" from S.
+*/
 class Solution {
 public:
     int numDistinct(string s, string t) {
