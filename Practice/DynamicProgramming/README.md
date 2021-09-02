@@ -15,9 +15,11 @@
 - [x] 877  Stone Game
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [x] 1187 Make Array Strictly Increasing ( Hard )
+- [x] 1335 Min Difficulty of a Job Schedule
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1473 Paint House III ( need to use recursive to solve this )
 - [x] 1770 Maximum Score from Performing Multiplication Operation
+- [x] 1723 Find Min Time to Finish All Jobs
 - [x] 1986 Min Number of Work Session to Finish the Tasks ( Masked BIT DP)
 ### 44 Wildcard Matching
 
