@@ -5,14 +5,18 @@ Geneous Collection
 #### 1986 Min Number of Work Session to Finish the Tasks (classic TSP) 
 
 ### TODO List
-- [ ] 464. Can I Win
-- [ ] 974. Subarray Sums Divisible by K
-- [ ] 564. Find the Closest Palindrome
-- [ ] 44. Wildcard Matching
+- [x] 8   String to Integer (atoi)
+- [ ] 464 Can I Win
+- [ ] 974 Subarray Sums Divisible by K
+- [ ] 564 Find the Closest Palindrome
+- [ ] 44  Wildcard Matching
 - [ ] 286 Walls and Gates
 - [ ] 305 Number of Island II
-- [ ] 85. Maximal Rectangle
+- [ ] 85  Maximal Rectangle
 
+- [ ] 786. K-th Smallest Prime Fraction
+- [ ] 720. Longest Word in Dictionary
+- [ ] 33. Search in Rotated Sorted Array
 ### Practice
 
 1. Practice 1801 will use the concept of transforming long long int to output correct answer by adding module 10^9+7    
