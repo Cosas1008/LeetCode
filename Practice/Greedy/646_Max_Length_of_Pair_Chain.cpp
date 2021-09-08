@@ -1,29 +1,29 @@
 /*
 You are given an array of n pairs pairs where pairs[i] = [lefti, righti] and lefti < righti.
-Input: pairs = [[1,2],[2,3],[3,4]]
-Output: 2
-Explanation: The longest chain is [1,2] -> [3,4].
+
+A pair p2 = [c, d] follows a pair p1 = [a, b] if b < c. A chain of pairs can be formed in this fashion.
+
+Return the length longest chain which can be formed.
+
+You do not need to use up all the given intervals. You can select pairs in any order.
+
+Input: pairs = [[1,2],[7,8],[4,5]]
+Output: 3
+Explanation: The longest chain is [1,2] -> [4,5] -> [7,8].
 */
 class Solution {
 public:
-    // Sort by tail!!!!
     int findLongestChain(vector<vector<int>>& pairs) {
-        int ans = 0;
-        sort(pairs.begin(), pairs.end(), [](const vector<int> & lhv, const vector<int> & rhv){
-            return lhv[1] < rhv[1];
-        });
+        sort(pairs.begin(), pairs.end());
         int n = pairs.size();
-        vector<int> dp(n, 0);
-        dp[0] = 1;
-        for(int i = 0; i < n; i++){
-            for(int j = i+1; j < n; j++){
-                dp[j] = max(dp[j], pairs[j][0] > pairs[i][1]? dp[i] + 1 : dp[j]);
+        vector<int> dp(n, 1);
+        for(int i = 1 ; i < n; i++){
+            for(int j = 0; j < i; j++){
+                if(pairs[j][1] < pairs[i][0])
+                    dp[i] = max(dp[i], dp[j] + 1);
             }
         }
-        for(int i = 0 ; i < n; i++){
-            ans = max(ans, dp[i]);
-        }
-        return ans;
+        return *max_element(begin(dp), end(dp));
     }
 };
 

@@ -92,7 +92,7 @@ Keyword: set of max different values
 
 keyword: Tree walk BFS or DFS
 
-### 674.cpp
+### 674
 
 LeetCode Weekly Contest 49, simple Longest Continuous Increasing Subsequence question
 also check question 673 Number of Longest Increasing Subsequence

@@ -1,9 +1,11 @@
 # List:
 - [x] 10   Regular Expression Matching
 - [x] 44   Wildcard Matching
+- [ ] 85   Max Rectangle
 - [x] 91   Decode Ways
 - [x] 139  Word Break
 - [x] 140  Word Break II 
+- [x] 221  Max Square
 - [x] 300  Longest Increasing Subsequence
 - [x] 312  Burst Balloons
 - [x] 416  Partition Equal Subset.cpp
@@ -12,18 +14,27 @@
 - [ ] 639  Decode Ways II 
 - [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
-- [x] 877  Stone Game
+- [x] 871  Min number of Refueling Stops
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [x] 1187 Make Array Strictly Increasing ( Hard )
+- [x] 1235 Max Profit in Job Scheduling ( Hard )
 - [x] 1335 Min Difficulty of a Job Schedule
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1473 Paint House III ( need to use recursive to solve this )
 - [x] 1770 Maximum Score from Performing Multiplication Operation
 - [x] 1723 Find Min Time to Finish All Jobs
 - [x] 1986 Min Number of Work Session to Finish the Tasks ( Masked BIT DP)
+
+
 ### 44 Wildcard Matching
 
 This can also solved by [greedy](https://leetcode.com/problems/wildcard-matching/discuss/17888/Simple-greedy-Python-with-regexes)
+
+
+### 85 & 221 Maximum Rectangle/Square
+
+Worth a try
+
 ### 213 House Robber
 Rob house without two adjacent housess
 

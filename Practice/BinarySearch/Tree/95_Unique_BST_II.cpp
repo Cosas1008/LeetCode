@@ -13,6 +13,39 @@ Output: [[1,null,2,null,3],[1,null,3,2],[2,1,3],[3,1,null,null,2],[3,2,null,1]]
  */
 
 // Recurssive
+// Easier Version
+class Solution {
+public:
+    vector<TreeNode*> generateTrees(int n) {
+        if(n == 0) return {};
+        return genTree(1, n);
+    }
+    vector<TreeNode*> genTree(int start, int end){
+        vector<TreeNode*> res;
+        if(start > end){
+            res.push_back(NULL);
+            return res;
+        }else if(start == end){
+            res.push_back(new TreeNode(start));
+            return res;
+        }
+        vector<TreeNode*> left, right;
+        for(int i = start; i <= end; i++){
+            left = genTree(start, i-1);
+            right = genTree(i+1, end);
+            for(auto lnode : left){
+                for(auto rnode : right){
+                    TreeNode* root = new TreeNode(i);
+                    root->left = lnode;
+                    root->right = rnode;
+                    res.push_back(root);
+                }
+            }
+        }
+        return res;
+    }
+};
+
 class Solution {
 public:
     TreeNode* clone(TreeNode *root){
