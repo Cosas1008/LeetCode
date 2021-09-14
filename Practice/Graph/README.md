@@ -1,3 +1,15 @@
+
+### Problem Set
+- [x] 684 Redundent Connection
+- [x] 685 Redundent Connection II (directed graph)
+- [x] 743 Network Delay Time
+- [x] 778 Swim in Rising Water
+- [x] 787 Cheapest Flight Within K Step
+- [x] 827 Making A Large Island ( I think this is the easy one with some technique)
+- [x] 834 Sum of Distances in Tree
+- [x] 822 Reachable Nodes In Subdivided Graph ( Dijkstra )
+- [x] 1761 Minimum Degree of a Connected Trio in a Graph
+
 ### Basic
 
 1. DFS and BFS    
@@ -58,12 +70,3 @@ private:
 ### 685 Redundent Connection for Directed Graph
 ![graph](https://discuss.leetcode.com/assets/uploads/files/1507232873325-screen-shot-2017-10-05-at-2.25.34-pm-resized.png)
 [Explain](https://leetcode.com/problems/redundant-connection-ii/discuss/108058/one-pass-disjoint-set-solution-with-explain)
-
-### Problem Set
-- [x] 684 Redundent Connection
-- [x] 685 Redundent Connection II (directed graph)
-- [x] 743 Network Delay Time
-- [x] 778 Swim in Rising Water
-- [x] 787 Cheapest Flight Within K Step
-- [x] 827 Making A Large Island ( I think this is the easy one with some technique)
-- [x] 1761 Minimum Degree of a Connected Trio in a Graph

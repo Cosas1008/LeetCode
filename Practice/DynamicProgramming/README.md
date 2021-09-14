@@ -1,7 +1,8 @@
 # List:
 - [x] 10   Regular Expression Matching
 - [x] 44   Wildcard Matching
-- [ ] 85   Max Rectangle
+- [ ] 84   Largest Rectangle in Histogram
+- [x] 85   Max Rectangle ( smart )
 - [x] 91   Decode Ways
 - [x] 139  Word Break
 - [x] 140  Word Break II 

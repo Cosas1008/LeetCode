@@ -29,6 +29,7 @@ Step 4: Prove optimality. Prove that since greedy stays ahead of the other solut
 - [x] 135  Candy
 - [x] 502  IPO
 - [x] 646  Max Length of Pair Chain
+- [x] 1509 Min Difference Between Largest and Smallest Value in Three Moves
 - [x] 1640 Check Array Formation Through Concatenation
 - [x] 1921 Eliminate Max Number of Monster
 - [x] 1963 Min Number of Swaps to Make the String Balanced

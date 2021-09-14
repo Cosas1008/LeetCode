@@ -25,6 +25,8 @@ Interesting problem..
 - [ ] 124  Binary Tree Maximum Path Sum (DP)
 - [x] 230  Kth Smallest Element in a BST
 - [x] 654  Maximum Binary Tree ( *Cartesian tree* )
+- [ ] 968  Binary Tree Cameras
+- [x] 979  Distribute Coins in Binary Tree
 - [x] 1150 Two Sum BSTs
 - [x] 1339 Max Product of Splitted Binary Tree
 
