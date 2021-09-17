@@ -25,7 +25,6 @@ Step 4: Prove optimality. Prove that since greedy stays ahead of the other solut
 [ref](http://www.cs.cornell.edu/courses/cs482/2007su/ahead.pdf)
 
 ## TODO List
-- [x] 42   Trapping Water
 - [x] 135  Candy
 - [x] 502  IPO
 - [x] 646  Max Length of Pair Chain

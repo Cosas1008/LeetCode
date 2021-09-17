@@ -6,12 +6,11 @@ Example:
 Input: [0,1,0,2,1,0,1,3,2,1,2,1]
 Output: 6
 */
-#include<vector>
-#include<algorithm> // for std::max
-#include<cstdlib> // for std::abs 
-
 class Solution {
 public:
+    // Using Stack
+
+
     // brute-force : find each height can contain how much water
     // Complexity: O^2
     // Space : 1
@@ -34,6 +33,7 @@ public:
         }
         return answer;
     }
+
     // dynamic programming
     int trap(vector<int>& height) {
         int currentmax = 0;

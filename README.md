@@ -5,6 +5,7 @@
 2. Tree
 3. Hash
 4. Trie
+5. Stack
 
 ### Algorithm
 1. Dynamic Programming
