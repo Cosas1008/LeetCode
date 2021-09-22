@@ -1,3 +1,8 @@
+/*
+Input: dividend = 10, divisor = 3
+Output: 3
+Explanation: 10/3 = truncate(3.33333..) = 3.
+*/
 class Solution {
 public:
     int divide(int dividend, int divisor) {

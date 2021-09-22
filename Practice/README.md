@@ -13,11 +13,19 @@ Geneous Collection
 - [ ] 286 Walls and Gates
 - [ ] 305 Number of Island II
 - [ ] 85  Maximal Rectangle
+- [ ] 304  Range Sum Query 2D - Immutable
+- [ ] 949  Largest Time for Given Digits
+- [ ] 973  K Closest Points to Origin
+- [ ] 343  Integer Break
+- [ ] 786  K-th Smallest Prime Fraction
+- [ ] 720  Longest Word in Dictionary
+- [ ] 33   Search in Rotated Sorted Array
 
-- [ ] 786. K-th Smallest Prime Fraction
-- [ ] 720. Longest Word in Dictionary
-- [ ] 33. Search in Rotated Sorted Array
 ### Practice
+
+0. Google OA
+[link](https://leetcode.com/discuss/interview-question/352460/Google-Online-Assessment-Questions)
+
 
 1. Practice 1801 will use the concept of transforming long long int to output correct answer by adding module 10^9+7    
 ```

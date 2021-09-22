@@ -19,6 +19,7 @@
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [x] 1187 Make Array Strictly Increasing ( Hard )
 - [x] 1235 Max Profit in Job Scheduling ( Hard )
+- [x] 1239 Max Length of a Concatenated String with Unique Characters ( bitset )
 - [x] 1335 Min Difficulty of a Job Schedule
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1473 Paint House III ( need to use recursive to solve this )

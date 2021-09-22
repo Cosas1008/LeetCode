@@ -18,7 +18,7 @@ public:
             jobs.push_back({endTime[i], startTime[i], profit[i]});
         }
         sort(jobs.begin(), jobs.end());
-        map<int, int> dp = {{0,0}};
+        map<int, int> dp = {{0,0}}; // endTime , profit
         for(auto job : jobs){
             int cur = prev(dp.upper_bound(job[1]))->second + job[2]; // profit
             if(cur > dp.rbegin()->second)
