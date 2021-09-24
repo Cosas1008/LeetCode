@@ -9,6 +9,8 @@ public:
         int n = A.size();
         vector<int> ans(n, -1);
         vector<int> stack;
+        // Loop once, we can get the Next Greater Number of a normal array.
+        // Loop twice, we can get the Next Greater Number of a circular array
         for(int i = 0 ; i < 2*n; i++){
             while(stack.size() && A[stack.back()] < A[i % n]){
                 ans[stack.back()] = A[i%n];

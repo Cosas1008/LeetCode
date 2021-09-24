@@ -1,6 +1,28 @@
+/*
+Given an array arr of positive integers, consider all binary trees such that:
+
+Each node has either 0 or 2 children;
+The values of arr correspond to the values of each leaf in an in-order traversal of the tree.
+The value of each non-leaf node is equal to the product of the largest leaf value in its left and right subtree, respectively.
+Among all possible binary trees considered, return the smallest possible sum of the values of each non-leaf node. It is guaranteed this sum fits into a 32-bit integer.
+
+A node is a leaf if and only if it has zero children.
+*/
 class Solution {
 public:
-    int mctFromLeafValues(vector<int>& arr) {
-        
+    int mctFromLeafValues(vector<int>& A) {
+        int res = 0;
+        vector<int> s = {INT_MAX};
+        for(auto a : A){
+            while(s.back() < a){
+                int mid = s.back();
+                s.pop_back();
+                res += mid * min(s.back(), a);
+            }
+            s.push_back(a);
+        }
+        for(int i = 2; i < s.size(); ++i)
+            res += s[i] * s[i-1];
+        return res;
     }
 };

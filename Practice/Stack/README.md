@@ -12,5 +12,5 @@
 - [x] 503  Next Greater Element II
 - [x] 856  Score of Parentheses
 - [x] 901  Online Stock Span
-- [ ] 907  Sum of Subarray Minimums
-- [ ] 1130 Min Cost Tree From Leaf Values
+- [x] 907  Sum of Subarray Minimums (Interesting thought)
+- [x] 1130 Min Cost Tree From Leaf Values

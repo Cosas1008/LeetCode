@@ -61,6 +61,11 @@ map, unordered_map<char, int> is more better way without casing the char to stri
 Given two sorted integer arrays nums1 and nums2, merge *nums2* into *nums1* as one sorted array.  
 hint: [Min-Heap](http://yuweiichen.com/merge-two-array/ "MergeSortedArray")
 
+### 300 Longest Increasing Subsequence
+
+Classic Question
+Just Like 334. Increasing Triplet Subsequence
+
 ### 412 Fizz Buzz
 keyword : vector<string>  
 
