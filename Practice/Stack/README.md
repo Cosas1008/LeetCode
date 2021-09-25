@@ -8,6 +8,7 @@
 [link](https://leetcode.com/tag/monotonic-stack/)
 - [ ] 42   Trapping Rain Water
 - [ ] 84   Largest Rectangle in Histogram
+- [x] 316  Remove Duplicate Letters ( same as 1081 )
 - [x] 496  Next Greater Element I
 - [x] 503  Next Greater Element II
 - [x] 856  Score of Parentheses

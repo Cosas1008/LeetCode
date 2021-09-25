@@ -20,6 +20,7 @@ Geneous Collection
 - [ ] 786  K-th Smallest Prime Fraction
 - [ ] 720  Longest Word in Dictionary
 - [ ] 33   Search in Rotated Sorted Array
+- [x] 1980 Find Unique Binary String
 
 ### Practice
 
@@ -91,6 +92,17 @@ solve it with min_element, <climits>
 keyword : dynamic programming, Memory Limit Exceeded
 
 這寫得超棒 [Simple Solution](https://discuss.leetcode.com/topic/58078/simple-c-code-as-well-as-the-followup-solution)
+
+### 528. Random Pick with Weight
+
+How to make weighted random probability   
+Similar to :   
+382 Linked List Random Node     
+710 Random Pick with Blacklist  (Hard)     
+Follow up:
+
+What if the linked list is extremely large and its length is unknown to you?
+Could you solve this efficiently without using extra space?    
 
 ### 556. Next Greater Element III
 [Wiki](https://www.wikiwand.com/en/Permutation#/Generation_in_lexicographic_order) Introduce Generation in lexicographic order for permutation, it goes:   
