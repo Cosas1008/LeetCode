@@ -6,8 +6,8 @@
 
 ### TODO 
 [link](https://leetcode.com/tag/monotonic-stack/)
-- [ ] 42   Trapping Rain Water
-- [ ] 84   Largest Rectangle in Histogram
+- [x] 42   Trapping Rain Water
+- [x] 84   Largest Rectangle in Histogram
 - [x] 316  Remove Duplicate Letters ( same as 1081 )
 - [x] 496  Next Greater Element I
 - [x] 503  Next Greater Element II
@@ -15,3 +15,4 @@
 - [x] 901  Online Stock Span
 - [x] 907  Sum of Subarray Minimums (Interesting thought)
 - [x] 1130 Min Cost Tree From Leaf Values
+- [x] 1793 Max Score of a Good Subarray

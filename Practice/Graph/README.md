@@ -1,5 +1,6 @@
 
 ### Problem Set
+- [ ] 310 Minimum Height Trees
 - [x] 684 Redundent Connection
 - [x] 685 Redundent Connection II (directed graph)
 - [x] 743 Network Delay Time

@@ -21,6 +21,7 @@ Geneous Collection
 - [ ] 720  Longest Word in Dictionary
 - [ ] 33   Search in Rotated Sorted Array
 - [x] 1980 Find Unique Binary String
+- [x] 1995 Count Special Quadruplets
 
 ### Practice
 
@@ -138,3 +139,6 @@ dynamic programming for
 1. Largest Subset
 2. the second question is to find whether it is possible to find a set of number that the sum of this set of numbers equals to target value
 3. Similar to largest possible number problem in Leetcode
+
+### 1994 Count Special Quadruplets
+Hint: 2Sum, 3Sum, 4Sum

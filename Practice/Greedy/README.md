@@ -26,6 +26,7 @@ Step 4: Prove optimality. Prove that since greedy stays ahead of the other solut
 
 ## TODO List
 - [x] 135  Candy
+- [x] 455  Assign Cookies
 - [x] 502  IPO
 - [x] 646  Max Length of Pair Chain
 - [x] 1509 Min Difference Between Largest and Smallest Value in Three Moves
@@ -50,7 +51,3 @@ struct mycomp {
         }
 }
 ```
-
-### 1640 Follow up?
-
-I solve this question by only greedy without considering repetitive start of the subarray and corresponding data-structure of storing each.
