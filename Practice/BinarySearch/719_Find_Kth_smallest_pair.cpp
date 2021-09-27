@@ -1,4 +1,8 @@
-// Binary Search 
+/*
+Given an integer array nums and an integer k, 
+return the kth smallest distance among all the pairs nums[i] and nums[j] 
+where 0 <= i < j < nums.length.
+*/
 // O(nlogn)
 class Solution {
 public:

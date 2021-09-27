@@ -20,6 +20,8 @@ Geneous Collection
 - [ ] 786  K-th Smallest Prime Fraction
 - [ ] 720  Longest Word in Dictionary
 - [ ] 33   Search in Rotated Sorted Array
+- [x] 885  Spiral Matrix III
+- [x] 1314 Matrix Block Sum
 - [x] 1980 Find Unique Binary String
 - [x] 1995 Count Special Quadruplets
 
