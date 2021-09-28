@@ -32,7 +32,7 @@ public:
         int n = s.length();
         for(int i = 0; i < n; i++) pos[s[i] - 'a'] = i;
         for(int i = 0, idx = INT_MIN, last_i = 0; i < n; ++i){
-            idx = max(dix, pos[s[i]-'a']);
+            idx = max(idx, pos[s[i]-'a']);
             if(idx == i) res.push_back(i - exchange(last_i, i+1) + 1);
         }
         return res;

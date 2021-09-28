@@ -4,6 +4,7 @@
 - [ ] 84   Largest Rectangle in Histogram
 - [x] 85   Max Rectangle ( smart )
 - [x] 91   Decode Ways
+- [x] 123  Best Time to Buy and Sell Stock III
 - [x] 139  Word Break
 - [x] 140  Word Break II 
 - [x] 221  Max Square
@@ -93,13 +94,3 @@ int longestPalindromeSubseq(string s) {
     return dp[n][n];
 }
 ```
-
-### Stone Game
-- [x] 877  Stone Game
-- [ ] 1140 Stone Game II
-- [x] 1406 Stone Game III
-- [x] 1510 Stone Game IV
-- [x] 1563 Stone Game V   ( 312 Burst Balloons )
-- [ ] 1686 Stone Game VI
-- [x] 1690 Stone Game VII
-- [ ] 1872 Stone Game VIII

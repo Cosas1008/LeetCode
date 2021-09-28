@@ -6,7 +6,7 @@
 - [x] 483 Smallest Good Base ( Hard )
 - [x] 658  Find K Clostest Element
 - [x] 668  Kth Smallest in Multiply Matrix
-- [x] 719  Find K-th smallest pair
+- [x] 719  Find K-th smallest pair ( Hard )
 - [x] 1562 Find Latest Group of Size M
 - [x] 1802 Maximum Value at a Given Index in a Bounded Array 
 - [x] 1894 Find the Student that Will Replace the Chalk

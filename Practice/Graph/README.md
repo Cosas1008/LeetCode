@@ -8,7 +8,8 @@
 - [x] 787 Cheapest Flight Within K Step
 - [x] 827 Making A Large Island ( I think this is the easy one with some technique)
 - [x] 834 Sum of Distances in Tree
-- [x] 822 Reachable Nodes In Subdivided Graph ( Dijkstra )
+- [x] 847  Shortest Path Visiting All Nodes ( Hard, using DFS )
+- [x] 822  Reachable Nodes In Subdivided Graph ( Dijkstra )
 - [x] 1761 Minimum Degree of a Connected Trio in a Graph
 
 ### Basic

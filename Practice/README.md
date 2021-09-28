@@ -6,7 +6,6 @@ Geneous Collection
 
 ### TODO List
 - [x] 8   String to Integer (atoi)
-- [ ] 464 Can I Win
 - [ ] 974 Subarray Sums Divisible by K
 - [ ] 564 Find the Closest Palindrome
 - [ ] 44  Wildcard Matching
