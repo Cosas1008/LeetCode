@@ -32,7 +32,7 @@ public:
     int largestRectangleArea(vector<int>& heights) {
         int ret = 0;
         vector<int> index;
-        heights.push_back(0); // key here
+        heights.push_back(0); // key here**
         for(int i = 0; i < heights.size(); i++){
             while(index.size() && heights[index.back()] >= heights[i]){
                 int h = heights[index.back()];
