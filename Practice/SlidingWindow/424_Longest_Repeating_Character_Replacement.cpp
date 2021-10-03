@@ -9,6 +9,7 @@ Explanation: Replace the two 'A's with two 'B's or vice versa.
 */
 
 // This solution is sooo creative, great to learn
+// 2024. Maximize the Confusion of an Exam, exactly same
 class Solution {
 public:
     int characterReplacement(string s, int k) {
@@ -25,4 +26,5 @@ public:
         }
         return res;
     }
+    // Optimize!
 };
