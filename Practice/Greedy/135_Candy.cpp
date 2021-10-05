@@ -16,20 +16,17 @@ The third child gets 1 candy because it satisfies the above two conditions.
 */
 class Solution {
 public:
-    int candy(vector<int>& ratings) { 
-        // greedy
+    int candy(vector<int>& ratings) {
         int n = ratings.size();
-        vector<int> candy(n, 1);
+        vector<int> candies(n, 1);
         for(int i = 1; i < n; i++){
-            if(ratings[i] > ratings[i-1]){
-                candy[i] = candy[i-1]+1;
-            }
+            if(ratings[i] > ratings[i-1])
+                candies[i] = candies[i-1]+1;
         }
         for(int i = n - 1; i > 0; i--){
-            if(ratings[i-1] > ratings[i]){
-                candy[i-1] = max(candy[i] + 1, candy[i-1]);
-            }
+            if(ratings[i] < ratings[i-1])
+                candies[i-1] = max(candies[i] + 1, candies[i-1]);
         }
-        return accumulate(candy.begin(), candy.end(), 0);
+        return accumulate(candies.begin(), candies.end(), 0);
     }
 };

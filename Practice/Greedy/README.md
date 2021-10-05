@@ -26,7 +26,7 @@ Step 4: Prove optimality. Prove that since greedy stays ahead of the other solut
 
 ## TODO List
 - [x] 135  Candy
-- [x] 435 Non Overlapping Intervals
+- [x] 435  Non Overlapping Intervals
 - [x] 455  Assign Cookies
 - [x] 502  IPO
 - [x] 646  Max Length of Pair Chain

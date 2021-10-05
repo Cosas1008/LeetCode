@@ -4,7 +4,6 @@
 
 1. Stone Game    
 2. Jump Game     
-3. Flip Game    
 3. Guess Game     
 
 

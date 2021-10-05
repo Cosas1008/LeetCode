@@ -1,9 +1,14 @@
+/*
+Connected stones can be reduced to 1 stone,
+the maximum stones can be removed = stones number - islands number.
+so just count the number of "islands".
+*/
 class Solution {
 public:
     int removeStones(vector<vector<int>>& stones) {
         for(auto stone : stones)
-            uni(stone[0], ~stone[1]);
-        return stones.size() - islands;
+            uni(stone[0], ~stone[1]); // for each point, union two indexes.
+        return stones.size() - islands; // return points number - union number
     }
     int find(int x){
         if(!m.count(x)) m[x] = x, islands++;
@@ -17,5 +22,5 @@ public:
     }
 private:
     unordered_map<int, int> m;
-    int islands;
+    int islands = 0;
 };

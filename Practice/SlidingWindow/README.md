@@ -2,15 +2,16 @@
 - [x] 76    Minimum Window Substring			  
 - [x] 209   Minimum Size Subarray Sum
 - [x] 340   Longest Substring with At Most K Distinct Characters   
+- [ ] 395   Longest Substring with At Least K Repeating Characters			  
 - [x] 424   Longest Repeating Character Replacement			  ( Recommanded) 
 - [x] 438   Find All Anagrams in a String
-- [x] 992   Subarrays with K Different Integers        
+- [x] 992   Subarrays with K Different Integers      
+- [x] 1574  Shortest Subarray to be Removed to Make Array Sorted 
 - [x] 1658	Minimum Operations to Reduce X to Zero ( similar to two sum, hash)
 
 ## TODO
 - [ ] 159   Longest Substring with At Most Two Distinct Characters	  	  
 - [ ] 239   Sliding Window Maximum			  
-- [ ] 395   Longest Substring with At Least K Repeating Characters			  
 - [ ] 480   Sliding Window Median			  
 - [ ] 567   Permutation in String			    
 - [ ] 727   Minimum Window Subsequence    
@@ -39,28 +40,6 @@ Subarrays with K Different Integers
 Fruit Into Baskets
 Shortest Subarray with Sum at Least K
 
-For 992. Subarrays with K Different Integers:
-```
-class Solution:
-    def subarraysWithKDistinct(self, A: 'List[int]', K: 'int') -> 'int':
-        return self.subarraysWithAtMostKDistinct(A, K) - self.subarraysWithAtMostKDistinct(A, K-1)
-    
-    def subarraysWithAtMostKDistinct(self, s, k):
-        lookup = collections.defaultdict(int)
-        l, r, counter, res = 0, 0, 0, 0
-        while r < len(s):
-            lookup[s[r]] += 1
-            if lookup[s[r]] == 1:
-                counter += 1
-            r += 1   
-            while l < r and counter > k:
-                lookup[s[l]] -= 1
-                if lookup[s[l]] == 0:
-                    counter -= 1
-                l += 1
-            res += r - l 
-        return res
-```
 For 3. Longest Substring Without Repeating Characters:
 ```
 class Solution:

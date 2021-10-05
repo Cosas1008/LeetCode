@@ -23,6 +23,7 @@ Geneous Collection
 - [x] 1314 Matrix Block Sum
 - [x] 1980 Find Unique Binary String
 - [x] 1995 Count Special Quadruplets
+- [x] 2025 Maximum Number of Ways to Partition an Array ( Prefix Suffix )
 
 ### Practice
 
@@ -99,8 +100,9 @@ keyword : dynamic programming, Memory Limit Exceeded
 
 How to make weighted random probability   
 Similar to :   
-382 Linked List Random Node     
-710 Random Pick with Blacklist  (Hard)     
+- [x] 380 Insert Delete GetRandom O(1)   
+- [x] 382 Linked List Random Node     
+- [x] 710 Random Pick with Blacklist  (Hard)     
 Follow up:
 
 What if the linked list is extremely large and its length is unknown to you?

@@ -1,23 +1,27 @@
 # List:
-- [x] 10   Regular Expression Matching
+
 - [x] 44   Wildcard Matching
-- [ ] 84   Largest Rectangle in Histogram
 - [x] 85   Max Rectangle ( smart )
 - [x] 91   Decode Ways
+- [x] 115  Distinct Subsequence
 - [x] 123  Best Time to Buy and Sell Stock III
 - [x] 139  Word Break
 - [x] 140  Word Break II 
+- [x] 198  House Robber
 - [x] 221  Max Square
 - [x] 300  Longest Increasing Subsequence
 - [x] 312  Burst Balloons
+- [x] 322  Coins Change ( Classic DP )
 - [x] 416  Partition Equal Subset.cpp
 - [x] 494  Target Sum
+- [x] 518  Coins Change 2
 - [x] 546  Remove Boxes ( Easily TLE, Hard )
 - [ ] 639  Decode Ways II 
 - [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
 - [x] 871  Min number of Refueling Stops
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
+- [x] 1049 Last Stone Weight II ( 0-1 Knapsacks DP )
 - [x] 1187 Make Array Strictly Increasing ( Hard )
 - [x] 1235 Max Profit in Job Scheduling ( Hard )
 - [x] 1239 Max Length of a Concatenated String with Unique Characters ( bitset )
