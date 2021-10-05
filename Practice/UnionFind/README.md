@@ -2,7 +2,9 @@
 
 ## TODO List
 
-- [] 947 Most Stones Removed with Same Row or Column
+- [ ] 305 Number of Island II
+- [ ] 928 Minimize Malware Spread II
+- [ ] 947 Most Stones Removed with Same Row or Column
 
 
 ### 947
