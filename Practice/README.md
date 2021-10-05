@@ -24,6 +24,7 @@ Geneous Collection
 - [x] 1980 Find Unique Binary String
 - [x] 1995 Count Special Quadruplets
 - [x] 2025 Maximum Number of Ways to Partition an Array ( Prefix Suffix )
+- [ ] 2030 Smallest K-Length Subsequence with Occurrence of a Letter
 
 ### Practice
 

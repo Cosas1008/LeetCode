@@ -2,12 +2,13 @@
 - [x] 76    Minimum Window Substring			  
 - [x] 209   Minimum Size Subarray Sum
 - [x] 340   Longest Substring with At Most K Distinct Characters   
-- [ ] 395   Longest Substring with At Least K Repeating Characters			  
+- [x] 395   Longest Substring with At Least K Repeating Characters			  
 - [x] 424   Longest Repeating Character Replacement			  ( Recommanded) 
 - [x] 438   Find All Anagrams in a String
 - [x] 992   Subarrays with K Different Integers      
 - [x] 1574  Shortest Subarray to be Removed to Make Array Sorted 
 - [x] 1658	Minimum Operations to Reduce X to Zero ( similar to two sum, hash)
+- [x] 1888  Mininum Number of Flips to Make the Binary String Alternation
 
 ## TODO
 - [ ] 159   Longest Substring with At Most Two Distinct Characters	  	  

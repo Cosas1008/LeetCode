@@ -16,6 +16,7 @@
 - [ ] 1686 Stone Game VI
 - [x] 1690 Stone Game VII
 - [ ] 1872 Stone Game VIII
+- [x] 2029 Stone Game IX ( heuristic algo)
 
 
 ### Jump Game
