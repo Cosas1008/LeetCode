@@ -30,6 +30,7 @@ Interesting problem..
 - [x] 979  Distribute Coins in Binary Tree
 - [x] 1150 Two Sum BSTs
 - [x] 1339 Max Product of Splitted Binary Tree
+- [x] 1361 Validate Binary Tree Node ( personally, it should be hard )
 
 * Follow up for 230
 Assume we have to modify and query K-th smallest element in a BST frequently, how to optimize   

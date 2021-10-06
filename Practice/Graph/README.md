@@ -11,6 +11,7 @@
 - [x] 847  Shortest Path Visiting All Nodes ( Hard, using DFS )
 - [x] 822  Reachable Nodes In Subdivided Graph ( Dijkstra )
 - [x] 1761 Minimum Degree of a Connected Trio in a Graph
+- [x] 1976 Number of Ways to Arrive at Destination ( Dijkstra )
 
 ### Basic
 

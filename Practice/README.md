@@ -6,7 +6,8 @@ Geneous Collection
 
 ### TODO List
 - [x] 8   String to Integer (atoi)
-- [ ] 33   Search in Rotated Sorted Array
+- [ ] 33  Search in Rotated Sorted Array
+- [x] 34  Find First and Last Position of Element in Sorted Array
 - [ ] 44  Wildcard Matching
 - [ ] 85  Maximal Rectangle
 - [ ] 286 Walls and Gates
