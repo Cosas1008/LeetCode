@@ -7,9 +7,9 @@ Example 1:
      1 --- 2    4
 Given n = 5 and edges = [[0, 1], [1, 2], [3, 4]], return 2.
 */
+// union find
 class Solution{
 public:
-    // union find
     int countComponents(int n, vector<vector<int>> edges){
         vector<int> root(n);
         for(int i = 0; i < n; i++){
@@ -34,7 +34,11 @@ private:
         }
         return i;
     }
-    // dfs
+};
+
+// dfs
+class Solution{
+public:
     int countComponents(int n, vector<vector<int>> edges){
         int res = 0;
         vector<vector<int> > g(n); // graph

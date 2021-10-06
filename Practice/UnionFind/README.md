@@ -5,7 +5,8 @@ Ref: [Count-the-Number-of-Islands-O(N)](https://leetcode.com/problems/most-stone
 
 ## TODO List
 
-- [ ] 305 Number of Island II
+- [x] 261  Graph Valid Tree
+- [ ] 305  Number of Island II
 - [x] 547  Number of Provinces
 - [x] 684  Redundent Connection
 - [x] 685  Redundent Connection II (directed graph)
