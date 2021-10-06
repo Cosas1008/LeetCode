@@ -26,3 +26,31 @@ private:
         return false;
     }
 };
+
+// DP
+class Solution {
+public:
+    bool canPartitionKSubsets(vector<int>& nums, int k) {
+        if(nums.size() == 0) return false;
+        int sum = accummulate(nums.begin(), nums.end(), 0);
+        int totalSum = sum;
+        if(sum % k != 0) return false;
+        sum /= k;
+        int n = nums.size();
+        // vector<bool> dp(1<<n, false);
+        vector<int> total(1<<n, -1);
+        // dp[0] = true;
+        total[0] = 0;
+        for(int i = 0; i < (1<<n); i++){
+            if(total[i] == -1) continue;
+            int rem = sum - (total[i] % sum);
+            for(int j = 0; j < n; j++){
+                int future = i | (1<<j);
+                if(i == future || total[future] >= 0) continue;
+                if(total[j] > rem) break;
+                total[future] = total[i] + nums[j];
+            }
+        }
+        return total.back() == totalSum;
+    }
+};

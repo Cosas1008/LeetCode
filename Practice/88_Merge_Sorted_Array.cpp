@@ -3,36 +3,6 @@ public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
 
        vector<int> outarray;
-        for(int i=0, j =0; i < n || j<m;){
-            if(n == 0){
-                outarray.push_back(nums1[j]);
-                j++;
-            }else if(m == 0){
-                outarray.push_back(nums2[i]);
-                i++;
-            }else{
-                if(nums1[j] < nums2[i] && nums1[j] != 0){
-                    outarray.push_back(nums1[j]);
-                    j++;
-                }else if(nums2[i] != 0){
-                    outarray.push_back(nums2[i]);
-                    i++;
-                }
-            }
-        }
-        nums1.clear();
-        for(int k =0; k < m+n;k++){
-            nums1.push_back(outarray[k]);
-        }
-    }
-};
-
-//optimize
-class Solution {
-public:
-    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-
-       vector<int> outarray;
         if(n == 0){
             for(int j=0;j<m;j++)
                 outarray.push_back(nums1[j]);
@@ -82,9 +52,9 @@ public:
 };
 //Accepted solution
 struct comparator {
- bool operator()(int i, int j) {
- return i > j;
- }
+    bool operator()(int i, int j) {
+        return i > j;
+    }
 };
 
 class Solution {
