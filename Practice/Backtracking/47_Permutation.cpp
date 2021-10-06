@@ -1,3 +1,7 @@
+/*
+Given a collection of numbers, nums, that might contain duplicates, 
+return all possible unique permutations in any order.
+*/
 class Solution {
 public:
   vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -17,6 +21,31 @@ private:
       if(i != k && nums[i] == nums[k]) continue;
       swap(nums[i], nums[k]);
       helper(nums, i + 1, j, ret);
+    }
+  }
+};
+
+
+class Solution {
+public:
+  vector<vector<int> > permuteUnique(vector<int> &A) {
+    int n = A.size();
+    if(n <= 1) return A;
+    sort(A.begin(), A.end());
+    vector<vector<int>> res;
+    recursion(A, 0, n, res);
+    return res;
+  }
+private:
+  void recursion(vector<int> num, int i, int n, vector<vector<int> > &res) {
+    if (i == n-1) {
+      res.push_back(num);
+      return;
+    }
+    for (int j = i; j < n; j++) {
+      if (i != j && num[i] == num[j]) continue;
+      swap(num[i], num[j]);
+      recursion(num, i+1, n, res);
     }
   }
 };
