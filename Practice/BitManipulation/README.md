@@ -9,3 +9,4 @@
 - [x] 90   Subset II
 - [x] 136  Single Number
 - [x] 137  Single Number II
+- [x] 190  Reverse Bit

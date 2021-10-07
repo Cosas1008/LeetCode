@@ -37,4 +37,3 @@ for(int i=0; i<n; i++){
     else if(l[i] > r[i]) ans += 'R';
     else ans += 'L';
 }
-// ref: https://leetcode.com/problems/push-dominoes/discuss/787845/O(N)-C%2B%2B-Easy-Solution.-greater90

@@ -24,6 +24,8 @@ Interesting problem..
 - [x] 95   Unique BST II (TL;DR)
 - [x] 124  Binary Tree Maximum Path Sum (DP)
 - [x] 230  Kth Smallest Element in a BST
+- [x] 297  Serialize and Deserialize BST ( same as 449 )
+- [x] 652  Find Duplicate Subtrees ( use serialize technique )
 - [x] 654  Maximum Binary Tree ( *Cartesian tree* )
 - [x] 655  Print Binary Tree
 - [x] 968  Binary Tree Cameras
