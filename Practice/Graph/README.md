@@ -3,17 +3,19 @@
 - [x] 133  Clone Graph
 - [x] 200  Number of Islands
 - [ ] 310  Minimum Height Trees
+- [ ] 317  Shortest Distance from All Buildings ( not so hard, BFS is the key)
 - [x] 743  Network Delay Time
 - [x] 778  Swim in Rising Water
 - [x] 785  Is Graph Bipartite?
 - [x] 787  Cheapest Flight Within K Step
-- [x] 797  All Path from Source to Target ( Easy )
+- [x] 797  All Path from Source to Target ( DAG, Easy )
 - [x] 827  Making A Large Island ( I think this is the easy one with some technique)
 - [x] 834  Sum of Distances in Tree
 - [x] 847  Shortest Path Visiting All Nodes ( Hard, using DFS )
 - [x] 822  Reachable Nodes In Subdivided Graph ( Dijkstra )
 - [x] 934  Shortest Bridge ( Connect 2 island, how to paint??)
 - [ ] 1129 Shortest Path with Alternating Colors
+- [ ] 1162 As Far from Land as Possible
 - [ ] 1514 Path with Maximum Probability
 - [x] 1761 Minimum Degree of a Connected Trio in a Graph
 - [x] 1976 Number of Ways to Arrive at Destination ( Dijkstra )

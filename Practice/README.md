@@ -5,22 +5,24 @@ Geneous Collection
 #### 1986 Min Number of Work Session to Finish the Tasks (classic TSP) 
 
 ### TODO List
-- [x] 8   String to Integer (atoi)
-- [ ] 33  Search in Rotated Sorted Array
-- [x] 34  Find First and Last Position of Element in Sorted Array
-- [ ] 44  Wildcard Matching
-- [ ] 85  Maximal Rectangle
-- [ ] 286 Walls and Gates
-- [ ] 305 Number of Island II
+- [x] 8    String to Integer (atoi)
+- [ ] 33   Search in Rotated Sorted Array
+- [x] 34   Find First and Last Position of Element in Sorted Array
+- [ ] 44   Wildcard Matching
+- [x] 85   Maximal Rectangle
+- [ ] 286  Walls and Gates
+- [ ] 305  Number of Island II
 - [ ] 343  Integer Break
 - [ ] 304  Range Sum Query 2D - Immutable
-- [ ] 564 Find the Closest Palindrome
-- [ ] 720  Longest Word in Dictionary
+- [ ] 564  Find the Closest Palindrome
+- [x] 720  Longest Word in Dictionary
 - [ ] 786  K-th Smallest Prime Fraction
 - [x] 885  Spiral Matrix III
 - [ ] 949  Largest Time for Given Digits
+- [ ] 963  Min Area Rectangle II
 - [ ] 973  K Closest Points to Origin
-- [ ] 974 Subarray Sums Divisible by K
+- [ ] 974  Subarray Sums Divisible by K
+- [x] 1042 Flower Planting With No Adjacent ( Greedy )
 - [x] 1314 Matrix Block Sum
 - [x] 1980 Find Unique Binary String
 - [x] 1995 Count Special Quadruplets

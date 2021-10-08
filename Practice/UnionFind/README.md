@@ -12,7 +12,7 @@ Ref: [Count-the-Number-of-Islands-O(N)](https://leetcode.com/problems/most-stone
 - [x] 685  Redundent Connection II (directed graph)
 - [x] 721  Accounts Merge
 - [x] 947  Most Stones Removed with Same Row or Column
-- [ ] 928 Minimize Malware Spread II
+- [ ] 928 Minimize Malware Spread II ( Hard )
 
 ### 947
 Problem:

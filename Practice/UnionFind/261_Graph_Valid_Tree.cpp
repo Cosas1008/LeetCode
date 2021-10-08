@@ -1,5 +1,6 @@
 /*
-Given n nodes labeled from 0 to n - 1 and a list of undirected edges (each edge is a pair of nodes), write a function to check whether these edges make up a valid tree.
+Given n nodes labeled from 0 to n - 1 and a list of undirected edges (each edge is a pair of nodes),
+write a function to check whether these edges make up a valid tree.
 
 For example:
 
@@ -16,9 +17,9 @@ public:
             int y = find(nodes, e[1]);
             if(x == y)
                 return false;
-            nums[y] = x;
+            nums[y] = x; // key
         }
-        return edges.size() == n-1;
+        return edges.size() == n-1; // all connected
     }
     int find(vector<int>& nodes, int i){
         if(nodes[i] == -1) return i;

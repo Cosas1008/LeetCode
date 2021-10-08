@@ -12,7 +12,7 @@ public:
     int maximumAverageSubtree(TreeNode* root){
         // post order traversal
         int cnt = 0, total = 0;
-        dfs(root, cnt);
+        dfs(root, cnt, total);
         return res;
     }
     void dfs(TreeNode* root, int& cnt, int& total){
