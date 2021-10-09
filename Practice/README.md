@@ -21,10 +21,11 @@ Geneous Collection
 - [x] 885  Spiral Matrix III
 - [ ] 949  Largest Time for Given Digits
 - [ ] 963  Min Area Rectangle II
-- [ ] 973  K Closest Points to Origin
+- [x] 973  K Closest Points to Origin
 - [ ] 974  Subarray Sums Divisible by K
 - [x] 1042 Flower Planting With No Adjacent ( Greedy )
 - [x] 1314 Matrix Block Sum
+- [ ] 1139 Largest 1-Bordered Square
 - [x] 1980 Find Unique Binary String
 - [x] 1995 Count Special Quadruplets
 - [x] 2025 Maximum Number of Ways to Partition an Array ( Prefix Suffix )

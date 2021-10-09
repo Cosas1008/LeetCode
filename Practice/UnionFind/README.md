@@ -8,11 +8,11 @@ Ref: [Count-the-Number-of-Islands-O(N)](https://leetcode.com/problems/most-stone
 - [x] 261  Graph Valid Tree
 - [ ] 305  Number of Island II
 - [x] 547  Number of Provinces
-- [x] 684  Redundent Connection
-- [x] 685  Redundent Connection II (directed graph)
+- [x] 684  Redundent Connection ( Union Find)
+- [x] 685  Redundent Connection II ( DAG )
 - [x] 721  Accounts Merge
-- [x] 947  Most Stones Removed with Same Row or Column
-- [ ] 924 Minimize Malware Spread ( Hard )
+- [x] 924 Minimize Malware Spread ( Hard )
+- [x] 947  Most Stones Removed with Same Row or Column ( Geneous )
 - [ ] 928 Minimize Malware Spread II ( Hard )
 
 ### 947

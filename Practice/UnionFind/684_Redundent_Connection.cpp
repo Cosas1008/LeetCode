@@ -7,7 +7,28 @@ Explanation: The given undirected graph will be like this:
 5 - 1 - 2
     |   |
     4 - 3
+3 <= n <= 1000
 */
+// Method 0: Union Find ( simple)
+class Solution{
+public:
+    vector<int> findRedundantConnection(vector<vector<int>>& edges){
+        vector<int> p(1001, 0);
+        for(int i = 0; i < 1001; ++i)
+            p[i] = i;
+        vector<int> res;
+        for(auto v : edges){
+            int s = v[0], d = v[1];
+            while(s != p[s]) s = p[s];
+            while(d != p[d]) d = p[d];
+            if(s == d)
+                res = v;
+            else
+                p[s] = d;
+        }
+        return res;
+    }
+}
 // Method 1: DFS (larger Time complexity)
 class Solution {
 public:

@@ -14,10 +14,14 @@
 - [x] 847  Shortest Path Visiting All Nodes ( Hard, using DFS )
 - [x] 822  Reachable Nodes In Subdivided Graph ( Dijkstra )
 - [x] 934  Shortest Bridge ( Connect 2 island, how to paint??)
+- [x] 939  Min Area Rectangle
+- [ ] 980  Unique Path III ( Backtracking + DFS )
 - [ ] 1129 Shortest Path with Alternating Colors
 - [ ] 1162 As Far from Land as Possible
+- [x] 1267 Count Servers that Communicate
 - [ ] 1514 Path with Maximum Probability
 - [x] 1761 Minimum Degree of a Connected Trio in a Graph
+- [x] 1905 Count Sub Islands (DFS, way to deal with boundary)
 - [x] 1976 Number of Ways to Arrive at Destination ( Dijkstra )
 
 ### Basic

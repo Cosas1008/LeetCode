@@ -10,6 +10,7 @@ public:
             uni(stone[0], ~stone[1]); // for each point, union two indexes.
         return stones.size() - islands; // return points number - union number
     }
+    
     int find(int x){
         if(!m.count(x)) m[x] = x, islands++;
         if(x != m[x]) m[x] = find(m[x]);
