@@ -5,6 +5,7 @@
 1. Stone Game    
 2. Jump Game     
 3. Guess Game     
+4. Paint House
 
 
 ### Stone Game
@@ -25,6 +26,12 @@
 - [ ] 1306 Jump Game III
 - [x] 1696 Jump Game VI
 - [x] 1871 Jump Game VII
+
+### Paint House
+- [ ] 256  Paint House
+- [ ] 265  Paint House II
+- [ ] 1473 Paint House III
+
 
 ### TODO List
 - [x] 294  Flip Game II   

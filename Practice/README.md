@@ -17,6 +17,7 @@ Geneous Collection
 - [ ] 564  Find the Closest Palindrome
 - [x] 720  Longest Word in Dictionary
 - [ ] 786  K-th Smallest Prime Fraction
+- [x] 835  Image Overlap ( Smart )
 - [x] 885  Spiral Matrix III
 - [ ] 949  Largest Time for Given Digits
 - [ ] 963  Min Area Rectangle II
