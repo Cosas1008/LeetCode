@@ -15,7 +15,10 @@ std::next_permutation(nums.begin(),nums.end(),[](int x, int y){return  x<=y ; })
 - [x] 31   Next Permutation
 - [x] 47   Permutation (Unique)
 - [x] 79   Word Search
+- [x] 93   Restore IP Addresses 
+- [ ] 212  Word Search II
 - [ ] 266  Palindrome Permutation 
 - [ ] 267  Palindrome Permutation II
 - [x] 301  Remove Invalid Parentheses
 - [x] 491  Increasing Subsequences
+- [x] 980  Unique Path III ( Backtracking + DFS )

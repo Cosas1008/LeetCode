@@ -5,6 +5,7 @@ Explanation: The longest substring is "aaa", as 'a' is repeated 3 times.
 */
 class Solution {
 public:
+    // TC : O(N^2)
     int longestSubstring(string s, int k) {
         int n = s.length();
         if(n == 0 || k > n) return 0;
@@ -28,7 +29,7 @@ private:
         return true;
     }
 };
-// Sliding Window
+// Sliding Window O(N)
 class Solution {
 public:
     int longestSubstring(string s, int k) {
@@ -36,9 +37,10 @@ public:
         // get max unique count
         int maxUnique = 0;
         if(k == 1) return n;
-        vector<int> charlist(26, 0);
+        memset(mp, 0x0, sizeof(mp));
+        
         for(char c : s){
-            maxUnique = max(maxUnique, ++charlist[c-'a']);
+            maxUnique = max(maxUnique, ++mp[c-'a']);
         }
 
         for(int currentUnique = 1; currentUnique <= maxUnique; ++currentUnique){

@@ -15,7 +15,6 @@
 - [x] 822  Reachable Nodes In Subdivided Graph ( Dijkstra )
 - [x] 934  Shortest Bridge ( Connect 2 island, how to paint??)
 - [x] 939  Min Area Rectangle
-- [ ] 980  Unique Path III ( Backtracking + DFS )
 - [ ] 1129 Shortest Path with Alternating Colors
 - [ ] 1162 As Far from Land as Possible
 - [x] 1267 Count Servers that Communicate

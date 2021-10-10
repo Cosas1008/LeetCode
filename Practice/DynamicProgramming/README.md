@@ -16,7 +16,7 @@
 - [x] 494  Target Sum
 - [x] 518  Coins Change 2
 - [x] 546  Remove Boxes ( Easily TLE, Hard )
-- [ ] 639  Decode Ways II 
+- [x] 639  Decode Ways II 
 - [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
 - [x] 871  Min number of Refueling Stops
@@ -27,7 +27,7 @@
 - [x] 1239 Max Length of a Concatenated String with Unique Characters ( bitset )
 - [x] 1335 Min Difficulty of a Job Schedule
 - [ ] 1397 Find All Good String ( Hard )
-- [x] 1473 Paint House III ( need to use recursive to solve this )
+- [x] 1654 Min Jumps to Reach Home
 - [x] 1770 Maximum Score from Performing Multiplication Operation
 - [x] 1723 Find Min Time to Finish All Jobs
 - [x] 1986 Min Number of Work Session to Finish the Tasks ( Masked BIT DP)

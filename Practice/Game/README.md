@@ -30,7 +30,7 @@
 ### Paint House
 - [ ] 256  Paint House
 - [ ] 265  Paint House II
-- [ ] 1473 Paint House III
+- [x] 1473 Paint House III ( need to use recursive to solve this )
 
 
 ### TODO List

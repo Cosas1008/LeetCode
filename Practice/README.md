@@ -17,6 +17,7 @@ Geneous Collection
 - [ ] 564  Find the Closest Palindrome
 - [x] 720  Longest Word in Dictionary
 - [ ] 786  K-th Smallest Prime Fraction
+- [x] 826  Most Profit Assigning Work
 - [x] 835  Image Overlap ( Smart )
 - [x] 885  Spiral Matrix III
 - [ ] 949  Largest Time for Given Digits
@@ -24,8 +25,9 @@ Geneous Collection
 - [x] 973  K Closest Points to Origin
 - [ ] 974  Subarray Sums Divisible by K
 - [x] 1042 Flower Planting With No Adjacent ( Greedy )
+- [x] 1139 Largest 1-Bordered Square
 - [x] 1314 Matrix Block Sum
-- [ ] 1139 Largest 1-Bordered Square
+- [x] 1583 Count Unhappy Friends ( need to think again)
 - [x] 1980 Find Unique Binary String
 - [x] 1995 Count Special Quadruplets
 - [x] 2025 Maximum Number of Ways to Partition an Array ( Prefix Suffix )
