@@ -3,7 +3,9 @@
 ## Problem List
 [leetcode](https://leetcode.com/tag/binary-search/)
 
-- [x] 483 Smallest Good Base ( Hard )
+- [x] 33   Search in Rotated Sorted Array (Classic Binary Search, Solve 153 too)
+- [x] 81   Search in Rotated Sorted Array II ( Solve 154 too )
+- [x] 483  Smallest Good Base ( Hard )
 - [x] 658  Find K Clostest Element
 - [x] 668  Kth Smallest in Multiply Matrix
 - [x] 719  Find K-th smallest pair ( Hard )

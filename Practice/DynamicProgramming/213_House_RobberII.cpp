@@ -1,3 +1,4 @@
+// All houses at this place are arranged in a circle.
 class Solution {
 public:
     int rob(vector<int>& nums) {

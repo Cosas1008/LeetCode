@@ -7,7 +7,7 @@ public:
      bool placeWordInCrossword(vector<vector<char>>& A, string s) {
         int M = A.size();
         int N = A[0].size();
-        vector<vector<char>> T(N, vector<char>(M)); // `B` is the transpose of `A`
+        vector<vector<char>> T(N, vector<char>(M)); // `T` is the transpose of `A`
         for (int i = 0; i < M; ++i) {
             for (int j = 0; j < N; ++j) {
                 T[j][i] = A[i][j];

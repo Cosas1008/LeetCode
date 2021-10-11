@@ -22,3 +22,4 @@ std::next_permutation(nums.begin(),nums.end(),[](int x, int y){return  x<=y ; })
 - [x] 301  Remove Invalid Parentheses
 - [x] 491  Increasing Subsequences
 - [x] 980  Unique Path III ( Backtracking + DFS )
+- [x] 1718 Construct the Lexicographically Large Valid Sequence

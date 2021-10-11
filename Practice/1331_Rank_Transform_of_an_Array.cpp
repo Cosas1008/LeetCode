@@ -23,7 +23,7 @@ public:
         return ans;
     }
 };
-// Hash
+// Hash O(nlogn)
 class Solution {
 public:
     vector<int> arrayRankTransform(vector<int>& A) {

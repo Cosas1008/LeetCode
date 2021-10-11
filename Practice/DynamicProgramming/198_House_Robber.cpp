@@ -1,4 +1,20 @@
-// Time Complexity O(2^n)
+//  it will automatically contact the police if two adjacent houses were broken into on the same night.
+
+// DP
+// Time Complexity O(n)
+class Solution {
+public:
+    int rob(vector<int>& A) {
+        vector<int> dp(A.size()+1);
+        dp[0] = 0;
+        dp[1] = A[0];
+        for(int i = 2; i <= A.size(); ++i)
+            dp[i] = max(dp[i-2] + A[i-1], dp[i-1]);
+        return dp[A.size()];
+    }
+};
+
+// DFS Time Complexity O(2^n)
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -33,21 +49,5 @@ private:
         }
         mem[idx] = max(nums[idx] + rob(nums, idx - 2), rob(nums, idx - 1));
         return mem[idx];
-    }
-};
-
-// DP
-// Time Complexity O(n)
-class Solution {
-public:
-    int rob(vector<int>& nums) {
-        if(nums.size() == 0) return 0;
-        vector<int> dp(nums.size() + 1, 0);
-        dp[0] = 0;
-        dp[1] = nums[0];
-        for(int i = 2 ; i <= nums.size(); i++){
-            dp[i] = max(dp[i - 1], nums[i-1] + dp[i-2]);
-        }
-        return dp[nums.size()];
     }
 };

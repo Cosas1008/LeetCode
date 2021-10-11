@@ -8,9 +8,12 @@
 - [x] 139  Word Break
 - [x] 140  Word Break II 
 - [x] 198  House Robber
+- [x] 213  House Robber II
 - [x] 221  Max Square
+- [x] 279  Perfect Square
 - [x] 300  Longest Increasing Subsequence
 - [x] 312  Burst Balloons
+- [x] 337  House Robber III
 - [x] 322  Coins Change ( Classic DP )
 - [x] 416  Partition Equal Subset.cpp
 - [x] 494  Target Sum
@@ -19,6 +22,7 @@
 - [x] 639  Decode Ways II 
 - [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
+- [x] 740  Delete and Earn
 - [x] 871  Min number of Refueling Stops
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [x] 1049 Last Stone Weight II ( 0-1 Knapsacks DP )
