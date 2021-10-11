@@ -13,7 +13,8 @@ Ref: [Count-the-Number-of-Islands-O(N)](https://leetcode.com/problems/most-stone
 - [x] 721  Accounts Merge
 - [x] 924 Minimize Malware Spread ( Hard )
 - [x] 947  Most Stones Removed with Same Row or Column ( Geneous )
-- [x] 928 Minimize Malware Spread II ( Hard )
+- [x] 928  Minimize Malware Spread II ( Hard )
+- [x] 990  Satisfiability of Equality Equations
 
 ### 947
 Problem:

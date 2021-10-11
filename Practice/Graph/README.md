@@ -18,6 +18,7 @@
 - [ ] 1129 Shortest Path with Alternating Colors
 - [ ] 1162 As Far from Land as Possible
 - [x] 1267 Count Servers that Communicate
+- [ ] 1319 Number of Operations to Make Network Connected
 - [ ] 1514 Path with Maximum Probability
 - [x] 1761 Minimum Degree of a Connected Trio in a Graph
 - [x] 1905 Count Sub Islands (DFS, way to deal with boundary)

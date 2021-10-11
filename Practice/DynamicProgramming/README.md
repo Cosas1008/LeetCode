@@ -22,7 +22,9 @@
 - [x] 639  Decode Ways II 
 - [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 718  Max Length of Repeated Subarray
+- [ ] 730  Count Different Palindromic Subsequences
 - [x] 740  Delete and Earn
+- [x] 746  Min Cost Climbing Stairs
 - [x] 871  Min number of Refueling Stops
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [x] 1049 Last Stone Weight II ( 0-1 Knapsacks DP )

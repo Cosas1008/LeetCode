@@ -1,3 +1,4 @@
+// Think of it is okay to climb to last two stairs
 // Optimization 1-Memorize
 class Solution {
 public:

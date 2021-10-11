@@ -31,6 +31,7 @@ Interesting problem..
 - [x] 654  Maximum Binary Tree ( *Cartesian tree* )
 - [x] 655  Print Binary Tree
 - [x] 671  Second Min Node in a BT ( DFS or BFS best practice )
+- [x] 783  Min Distance Between BST Nodes ( Inorder Traversal, easy, same as  530)
 - [x] 968  Binary Tree Cameras
 - [x] 979  Distribute Coins in Binary Tree
 - [x] 1120 Max Average Subtree ( DFS )
