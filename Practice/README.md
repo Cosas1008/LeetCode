@@ -7,8 +7,9 @@ Geneous Collection
 ### TODO List
 - [x] 8    String to Integer (atoi)
 - [x] 34   Find First and Last Position of Element in Sorted Array
-- [ ] 44   Wildcard Matching
+- [x] 54   Spiral Matrix
 - [x] 85   Maximal Rectangle
+- [x] 92   Reverse Linked List II
 - [x] 204  Count Primes
 - [ ] 286  Walls and Gates
 - [ ] 305  Number of Island II

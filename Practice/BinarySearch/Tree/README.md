@@ -24,6 +24,7 @@ Interesting problem..
 - [x] 95   Unique BST II (TL;DR)
 - [x] 103  BT Zigzag Level Order Traversal
 - [x] 124  Binary Tree Maximum Path Sum (DP)
+- [x] 156  Binary Tree Upside-down
 - [x] 230  Kth Smallest Element in a BST ( Recommanded )
 - [x] 297  Serialize and Deserialize BST ( same as 449 )
 - [x] 543 Diameter of BT
@@ -39,6 +40,7 @@ Interesting problem..
 - [x] 1161 Max Level Sum of a Binary Tree
 - [x] 1339 Max Product of Splitted Binary Tree
 - [x] 1361 Validate Binary Tree Node ( personally, it should be hard )
+- [ ] 1372 Longeset ZigZag Path in a BT
 - [ ] 1457 Pseudo-Palindromic Paths in a Binary Tree
 
 

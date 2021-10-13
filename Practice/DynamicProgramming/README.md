@@ -1,9 +1,11 @@
 # List:
 
 - [x] 44   Wildcard Matching
+- [x] 62   Unique Paths
+- [x] 63   Unique Paths II
 - [x] 85   Max Rectangle ( smart )
 - [x] 91   Decode Ways
-- [x] 115  Distinct Subsequence
+- [x] 115  Distinct Subsequence ( smart )
 - [x] 123  Best Time to Buy and Sell Stock III
 - [x] 139  Word Break
 - [x] 140  Word Break II 
