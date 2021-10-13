@@ -23,7 +23,7 @@ public:
         vector<int>res;
         for(int& a : A){
             auto it = std::lower_bound(res.begin(), res.end(), a);
-            if(it == res.end()) res.push_back(a);
+            if(it == res.end()) res.push_back(a); // can not find any larger
             else *it = a;
         }
         return res.size();

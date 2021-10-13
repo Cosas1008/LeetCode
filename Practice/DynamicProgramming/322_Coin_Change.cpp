@@ -14,7 +14,7 @@ public:
                     dp[i] = min(dp[i], dp[i-coins[j]] + 1);
         return dp[amount] > amount? -1 : dp[amount];
     }
-    // iterating over all combinations
+    // iterating over all combinations ( Optimized )
     int coinChange(vector<int>& coins, int amount) {
         vector<int> dp(amount+1, amount+1);
         dp[0] = 0;

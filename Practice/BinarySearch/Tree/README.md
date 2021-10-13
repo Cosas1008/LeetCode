@@ -35,12 +35,13 @@ Interesting problem..
 - [x] 783  Min Distance Between BST Nodes ( Inorder Traversal, easy, same as  530)
 - [x] 968  Binary Tree Cameras
 - [x] 979  Distribute Coins in Binary Tree
+- [x] 1008 Construct BST from Preorder Traversal
 - [x] 1120 Max Average Subtree ( DFS )
 - [x] 1150 Two Sum BSTs
 - [x] 1161 Max Level Sum of a Binary Tree
 - [x] 1339 Max Product of Splitted Binary Tree
 - [x] 1361 Validate Binary Tree Node ( personally, it should be hard )
-- [ ] 1372 Longeset ZigZag Path in a BT
+- [x] 1372 Longeset ZigZag Path in a BT
 - [ ] 1457 Pseudo-Palindromic Paths in a Binary Tree
 
 
