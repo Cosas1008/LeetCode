@@ -18,7 +18,7 @@ public:
             return false;
         char c = board[i][j];
         board[i][j] = '*'; // mark 
-        string s = word.substr(1);
+        string s = word.substr(1); // remove 1 from word
         bool ret = dfs(board, i-1, j, s) || dfs(board, i+1, j, s) || dfs(board, i, j-1, s) || dfs(board, i, j+1, s);
         board[i][j] = c; // reset
         return ret;

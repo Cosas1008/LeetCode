@@ -1,4 +1,6 @@
 // Use nothing but next_permutation ( begin, end, x<=y)
+// Input: nums = [1,2,3]
+// Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {

@@ -1,12 +1,12 @@
 # List:
 
 - [x] 44   Wildcard Matching
+- [x] 53   Maximum Subarray
 - [x] 62   Unique Paths
 - [x] 63   Unique Paths II
 - [x] 85   Max Rectangle ( smart )
 - [x] 91   Decode Ways
 - [x] 115  Distinct Subsequence ( smart )
-- [x] 123  Best Time to Buy and Sell Stock III
 - [x] 139  Word Break
 - [x] 140  Word Break II 
 - [x] 198  House Robber
@@ -28,6 +28,8 @@
 - [x] 740  Delete and Earn
 - [x] 746  Min Cost Climbing Stairs
 - [x] 871  Min number of Refueling Stops
+- [x] 918  Maximum Sum Circular Subarray
+- [ ] 940  Distinct Subsequence II
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
 - [x] 1049 Last Stone Weight II ( 0-1 Knapsacks DP )
 - [x] 1187 Make Array Strictly Increasing ( Hard )
@@ -45,6 +47,8 @@
 
 This can also solved by [greedy](https://leetcode.com/problems/wildcard-matching/discuss/17888/Simple-greedy-Python-with-regexes)
 
+### 53 Maximum Subarray
+Follow up 918 Max Sum Circular Subarray
 
 ### 85 & 221 Maximum Rectangle/Square
 

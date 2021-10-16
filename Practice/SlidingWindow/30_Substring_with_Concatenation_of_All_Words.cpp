@@ -6,16 +6,17 @@ The output order does not matter, returning [9,0] is fine too.
 */
 class Solution {
 public:
+    // Sliding Window
     vector<int> findSubstring(string s, vector<string>& words) {
         unordered_map<string,int> count;
-        vector<int> ans;
+        vector<int> ans; // store index
         int n = s.length();
         for(string word : words){
             count[word]++;
         }
         if(count.size() == 0 || n == 0) return ans;
         int num = words.size(), len = words[0].length();
-        for(int i = 0; i < n - len * num + 1; i++){
+        for(int i = 0; i < n - len * num + 1; i++){ // add 1 here is the key!!
             unordered_map<string, int> seen;
             int j = 0;
             for(; j < num; j++){

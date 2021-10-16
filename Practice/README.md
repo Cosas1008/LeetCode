@@ -6,13 +6,14 @@ Geneous Collection
 
 ### TODO List
 - [x] 8    String to Integer (atoi)
+- [x] 25   Reverse Nodes in k-Group ( Hard )
 - [x] 34   Find First and Last Position of Element in Sorted Array
 - [x] 54   Spiral Matrix
 - [x] 85   Maximal Rectangle
 - [x] 92   Reverse Linked List II
+- [x] 123  Best Time to Buy and Sell Stock III
 - [x] 204  Count Primes
 - [ ] 286  Walls and Gates
-- [ ] 305  Number of Island II
 - [ ] 343  Integer Break
 - [ ] 304  Range Sum Query 2D - Immutable
 - [ ] 564  Find the Closest Palindrome
@@ -24,11 +25,13 @@ Geneous Collection
 - [ ] 949  Largest Time for Given Digits
 - [ ] 963  Min Area Rectangle II
 - [x] 973  K Closest Points to Origin
-- [ ] 974  Subarray Sums Divisible by K
+- [x] 974  Subarray Sums Divisible by K
 - [x] 1042 Flower Planting With No Adjacent ( Greedy )
 - [x] 1139 Largest 1-Bordered Square
 - [x] 1314 Matrix Block Sum
+- [x] 1567 Max Length of Subarray With Positive Product
 - [x] 1583 Count Unhappy Friends ( need to think again)
+- [x] 1630 Arithmetic Subarrays
 - [x] 1980 Find Unique Binary String
 - [x] 1995 Count Special Quadruplets
 - [x] 2025 Maximum Number of Ways to Partition an Array ( Prefix Suffix )
@@ -73,6 +76,17 @@ map, unordered_map<char, int> is more better way without casing the char to stri
 ### 88. Merge Sorted Array   
 Given two sorted integer arrays nums1 and nums2, merge *nums2* into *nums1* as one sorted array.  
 hint: [Min-Heap](http://yuweiichen.com/merge-two-array/ "MergeSortedArray")
+
+### 92 Reverse Linked List II
+Hint : To make a dummy head at front   
+
+
+### Stock Series
+- [x] 121 Best Time to Buy and Sell Stock      (simple 1 transaction)    
+- [x] 122 Best Time to Buy and Sell Stock II   (n transactions)    
+- [x] 123 Best Time to Buy and Sell Stock III  (at most 2 transactions)    
+- [x] 309 Best Time to Buy and Sell Stock with Cooldown    (transactions with cooldown)    
+
 
 ### 300 Longest Increasing Subsequence
 

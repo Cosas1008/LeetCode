@@ -20,6 +20,7 @@
 - [x] 1267 Count Servers that Communicate
 - [ ] 1319 Number of Operations to Make Network Connected
 - [ ] 1514 Path with Maximum Probability
+- [x] 1631 Path With Minimum Effort (Dijkstra )
 - [x] 1761 Minimum Degree of a Connected Trio in a Graph
 - [x] 1905 Count Sub Islands (DFS, way to deal with boundary)
 - [x] 1976 Number of Ways to Arrive at Destination ( Dijkstra )

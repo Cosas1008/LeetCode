@@ -14,9 +14,11 @@ std::next_permutation(nums.begin(),nums.end(),[](int x, int y){return  x<=y ; })
 - [x] 10   Regular Expression Matching
 - [x] 31   Next Permutation
 - [x] 47   Permutation (Unique)
+- [x] 51   N Queen
+- [x] 52   N Queen II
 - [x] 79   Word Search
 - [x] 93   Restore IP Addresses 
-- [ ] 212  Word Search II
+- [x] 212  Word Search II ( Trie + Backtracking )
 - [ ] 266  Palindrome Permutation 
 - [ ] 267  Palindrome Permutation II
 - [x] 301  Remove Invalid Parentheses
