@@ -19,18 +19,18 @@ class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> ans;
-        helper(ans, nums, {});
+        helper(ans, nums, 0);
         return ans;
     }
-    void helper(vector<vector<int>>& ans, vector<int> nums, vector<int> choice){
-        if(nums.size() == 0){ ans.push_back(choice); return;}
-        for(int i = 0; i < nums.size(); i++){
-            int tmp = nums[i];
-            nums.erase(nums.begin()+i);
-            choice.push_back(tmp);
-            helper(ans, nums, choice);
-            nums.insert(nums.begin()+i, tmp);
-            choice.pop_back();
+    void helper(vector<vector<int>>& ans, vector<int> nums, int begin){
+        if(begin >= nums.size()){
+            ans.push_back(nums);
+            return;
+        }
+        for(int i = begin; i < nums.size(); i++){
+            swap(nums[begin], nums[i]);
+            helper(ans, nums, begin+1);
+            swap(nums[begin], nums[i]); // reverse
         }
     }
 };

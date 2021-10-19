@@ -1,6 +1,10 @@
+/*
+Input: nums = [5,7,7,8,8,10], target = 8
+Output: [3,4]
+*/
 class Solution {
 public:
-    // 2-pointer
+    // 2-pointer Time O(n)
     vector<int> searchRange(vector<int>& nums, int target) {
         int i = 0, j = nums.size()-1;
         while(i <= j){

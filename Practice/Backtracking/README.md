@@ -12,10 +12,12 @@ std::next_permutation(nums.begin(),nums.end(),[](int x, int y){return  x<=y ; })
 
 # TODO List
 - [x] 10   Regular Expression Matching
+- [x] 22   Generate Parentheses
 - [x] 31   Next Permutation
 - [x] 47   Permutation (Unique)
 - [x] 51   N Queen
 - [x] 52   N Queen II
+- [x] 60   Permutation Sequence ( use std )
 - [x] 79   Word Search
 - [x] 93   Restore IP Addresses 
 - [x] 130  Surrounded Regions

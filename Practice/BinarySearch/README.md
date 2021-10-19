@@ -13,7 +13,7 @@
 - [x] 1562 Find Latest Group of Size M
 - [x] 1802 Maximum Value at a Given Index in a Bounded Array 
 - [x] 1894 Find the Student that Will Replace the Chalk
-- [ ] 1901 Find Peak Element II
+- [x] 1901 Find Peak Element II
 - [x] 1964 Find the Longest Valid Obstacle Course at Each Position
 
 ## More Good Binary Search Problems

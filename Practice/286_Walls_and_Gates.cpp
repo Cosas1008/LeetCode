@@ -16,5 +16,21 @@ After running your function, the 2D grid should be:
   2   2   1  -1
   1  -1   2  -1
   0  -1   3   4
-  */
-  
+*/
+class Solution {
+public:
+    void wallsAndGates(vector<vector<int>>& rooms) {
+      // first step is to find gate and iterate from every gate
+      for(int i = 0; i < rooms.size(); ++i)
+        for(int j = 0; j < rooms[0].size(); ++j)
+          if(rooms[i][j] == 0) dfs(rooms, i, j, 0);
+    }
+    void dfs(vector<vector<int>>& rooms, int i , int j, int val){
+      if(i < 0 || j < 0 || i == rooms.size() || j == rooms[0].size() || rooms[i][j] < val) return;
+      rooms[i][j] = val; // update room
+      dfs(rooms, i + 1, j    , val + 1);
+      dfs(rooms, i - 1, j    , val + 1);
+      dfs(rooms, i    , j + 1, val + 1);
+      dfs(rooms, i    , j - 1, val + 1);
+    }
+};

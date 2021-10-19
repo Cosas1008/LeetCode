@@ -9,13 +9,14 @@ Geneous Collection
 - [x] 25   Reverse Nodes in k-Group ( Hard )
 - [x] 34   Find First and Last Position of Element in Sorted Array
 - [x] 54   Spiral Matrix
+- [x] 77   Combinations
 - [x] 85   Maximal Rectangle
 - [x] 92   Reverse Linked List II
 - [x] 123  Best Time to Buy and Sell Stock III
 - [x] 204  Count Primes
-- [ ] 286  Walls and Gates
-- [ ] 343  Integer Break
+- [x] 286  Walls and Gates
 - [ ] 304  Range Sum Query 2D - Immutable
+- [ ] 343  Integer Break
 - [ ] 564  Find the Closest Palindrome
 - [x] 720  Longest Word in Dictionary
 - [ ] 786  K-th Smallest Prime Fraction
@@ -86,7 +87,7 @@ Hint : To make a dummy head at front
 - [x] 122 Best Time to Buy and Sell Stock II   (n transactions)    
 - [x] 123 Best Time to Buy and Sell Stock III  (at most 2 transactions)    
 - [x] 309 Best Time to Buy and Sell Stock with Cooldown    (transactions with cooldown)    
-
+- [x] 714 Best Time to Buy and Sell Stock with Transaction Fee
 
 ### 300 Longest Increasing Subsequence
 

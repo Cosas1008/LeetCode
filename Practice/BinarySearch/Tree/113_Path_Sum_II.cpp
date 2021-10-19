@@ -5,20 +5,19 @@ A leaf is a node with no children.
 */
 class Solution {
 public:
+    vector<vector<int>> ans;
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
-        vector<vector<int>> ans;
-        helper(root, targetSum, ans, {});
+        dfs(root, targetSum, {});
         return ans;
     }
-    void helper(TreeNode* root, int target, vector<vector<int>>& ans, vector<int> cur){
+    void dfs(TreeNode* root, int targetSum, vector<int> cur){
         if(!root) return;
         cur.push_back(root->val);
-        target -= root->val;
-        if(target == 0 && !root->left && !root->right){ // find
+        if(targetSum == root->val && !root->left && !root->right){
             ans.push_back(cur);
         }else{
-            if(root->left) helper(root->left, target, ans, cur);
-            if(root->right) helper(root->right, target, ans, cur);
+            dfs(root->left,  targetSum-root->val, cur);
+            dfs(root->right, targetSum-root->val, cur);
         }
     }
 };
