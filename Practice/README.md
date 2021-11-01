@@ -6,11 +6,13 @@ Geneous Collection
 
 ### TODO List
 - [x] 8    String to Integer (atoi)
+- [x] 23   Merge K Sorted Lists
 - [x] 25   Reverse Nodes in k-Group ( Hard )
 - [x] 34   Find First and Last Position of Element in Sorted Array
 - [x] 54   Spiral Matrix
 - [x] 77   Combinations
 - [x] 85   Maximal Rectangle
+- [x] 88   Merge Sorted Array
 - [x] 92   Reverse Linked List II
 - [x] 123  Best Time to Buy and Sell Stock III
 - [x] 204  Count Primes
@@ -77,10 +79,6 @@ kind of bit operation
 ### 13 Roman to Integer
 map, unordered_map<char, int> is more better way without casing the char to string
 [Clean C++ solution](https://leetcode.com/problems/roman-to-integer/discuss/ "C++ clean solution")
-
-### 88. Merge Sorted Array   
-Given two sorted integer arrays nums1 and nums2, merge *nums2* into *nums1* as one sorted array.  
-hint: [Min-Heap](http://yuweiichen.com/merge-two-array/ "MergeSortedArray")
 
 ### 92 Reverse Linked List II
 Hint : To make a dummy head at front   

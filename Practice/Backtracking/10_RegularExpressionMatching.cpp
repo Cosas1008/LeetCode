@@ -9,24 +9,18 @@ Output: false
 class Solution {
 public:
     bool isMatch(string s, string p) {
-        ls = s.length();
-        lp = p.length();
+        ls = s.length(), lp = p.length();
         return dfs(s, p, 0, 0);
     }
     bool dfs(string& s, string& p, int si, int pi){
-        if(si >= ls && pi >= lp){
-            return true;
+        if(si >= ls && pi >= lp) return true;
+        if(pi >= lp) return false;
+        bool match = si < ls && (s[si] == p[pi] || p[pi] == '.');
+        if(pi + 1 < lp && p[pi+1] == '*'){
+            return dfs(s, p, si, pi+2) || 
+                (match && dfs(s, p, si+1, pi));
         }
-        if(pi >= lp){
-            return false;
-        }
-        bool match = (si < ls && (s[si] == p[pi] || p[pi] == '.'));
-        if(pi+1 < lp && p[pi+1] == '*'){
-            return dfs(s, p, si, pi+2) || // zero or more
-                    (match && dfs(s, p, si+1, pi)); // match
-        }
-        
-        return (match)? dfs(s, p, si+1, pi+1) : false;
+        return match? dfs(s, p, si+1, pi+1) : false;
     }
 private:
     int ls, lp;
@@ -60,9 +54,7 @@ public:
 
         for(int i = 1; i <= m; i++){
             for(int j = 1; j <= n; j++){
-                if(p[j-1] == '.')
-                    dp[i][j] = dp[i-1][j-1];
-                if(p[j-1] == s[i-1])
+                if(p[j-1] == '.' || p[j-1] == s[i-1])
                     dp[i][j] = dp[i-1][j-1];
                 if(p[j-1] == '*'){
                     if(p[j-2] != s[i-1] && p[j-2] != '.'){
