@@ -20,7 +20,6 @@ std::next_permutation(nums.begin(),nums.end(),[](int x, int y){return  x<=y ; })
 - [x] 60   Permutation Sequence ( use std )
 - [x] 79   Word Search
 - [x] 93   Restore IP Addresses 
-- [x] 130  Surrounded Regions
 - [x] 212  Word Search II ( Trie + Backtracking )
 - [ ] 266  Palindrome Permutation 
 - [ ] 267  Palindrome Permutation II
