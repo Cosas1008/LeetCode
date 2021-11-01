@@ -14,6 +14,7 @@ Geneous Collection
 - [x] 92   Reverse Linked List II
 - [x] 123  Best Time to Buy and Sell Stock III
 - [x] 204  Count Primes
+- [x] 264  Ugly Number II
 - [x] 286  Walls and Gates
 - [ ] 304  Range Sum Query 2D - Immutable
 - [ ] 343  Integer Break
@@ -23,12 +24,14 @@ Geneous Collection
 - [x] 826  Most Profit Assigning Work
 - [x] 835  Image Overlap ( Smart )
 - [x] 885  Spiral Matrix III
+- [x] 931  Min Falling Path Sum
 - [ ] 949  Largest Time for Given Digits
 - [ ] 963  Min Area Rectangle II
 - [x] 973  K Closest Points to Origin
 - [x] 974  Subarray Sums Divisible by K
 - [x] 1042 Flower Planting With No Adjacent ( Greedy )
 - [x] 1139 Largest 1-Bordered Square
+- [ ] 1289 Min Falling Path Sum II
 - [x] 1314 Matrix Block Sum
 - [x] 1567 Max Length of Subarray With Positive Product
 - [x] 1583 Count Unhappy Friends ( need to think again)
