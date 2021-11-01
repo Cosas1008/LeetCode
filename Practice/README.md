@@ -30,6 +30,7 @@ Geneous Collection
 - [x] 973  K Closest Points to Origin
 - [x] 974  Subarray Sums Divisible by K
 - [x] 1042 Flower Planting With No Adjacent ( Greedy )
+- [x] 1087 Brace Expansion
 - [x] 1139 Largest 1-Bordered Square
 - [ ] 1289 Min Falling Path Sum II
 - [x] 1314 Matrix Block Sum

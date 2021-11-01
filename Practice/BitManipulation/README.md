@@ -11,3 +11,4 @@
 - [x] 137  Single Number II
 - [x] 190  Reverse Bit
 - [x] 477  Total Hamming Distance
+- [x] 1238 Circular Permutation in Binary Representation

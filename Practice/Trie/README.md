@@ -5,7 +5,7 @@
 - [ ] 336 Palindrome Pairs
 - [x] 1268 Search Suggestions System (use trie)
 - [ ] 1707 Maximum XOR with Elements from Array
-- [x] 1803 Count Pairs with XOR in a Range ( Hardest! )
+- [ ] 1803 Count Pairs with XOR in a Range ( Hardest! )
 - [ ] 1938 Maximum Genetic Difference Query 
 ## TODO:
 
@@ -17,6 +17,16 @@ struct trienode{  // make structure of trie..
     bool isendofword;
     trienode* children[26];
 };
-```
 
-1803 Review
+class TrieNode {
+public:
+    bool is_word;
+    TrieNode *child[26];
+    TrieNode (){
+        is_word = false;
+        for(int i = 0; i < 26; i++){
+            child[i] = NULL;
+        }
+    }
+};
+```

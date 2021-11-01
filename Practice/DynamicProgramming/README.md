@@ -13,7 +13,6 @@
 - [x] 213  House Robber II
 - [x] 221  Max Square
 - [x] 279  Perfect Square
-- [x] 300  Longest Increasing Subsequence
 - [x] 312  Burst Balloons
 - [x] 337  House Robber III
 - [x] 322  Coins Change ( Classic DP )
@@ -85,11 +84,14 @@ nums1 and nums2
 
 > 6/1, 8/3 redo    
 
-### Longest Common Subsequence
+### 300 Longest Common Subsequence
 
 ![LCS](https://assets.leetcode.com/users/votrubac/image_1564691262.png)
 
-- [x] 516 Longest Palindrome Subsequence
+- [x] 300  Longest Increasing Subsequence
+- [x] 516  Longest Palindrome Subsequence
+- [x] 673  Number of Longest Increasing Subsequence ( Good Question )
+- [x] 674  Longest Continuous Increasing Subsequence ( Easy )
 - [x] 1143 Longest Common Subsequence
 - [x] 1312 Min Insertion to make Palindrome
 

@@ -1,30 +1,25 @@
-struct str
-{
-    str():character(),cnt(0){};
-    char character;
-    int cnt;
-};
-bool compare(struct str i, struct str j) { return i.cnt > j.cnt; }
-
+/*
+Given a string s, sort it in decreasing order based on the frequency of the characters. 
+The frequency of a character is the number of times it appears in the string.
+*/
 class Solution {
 public:
     string frequencySort(string s) {
-        string output;
-        struct str count[95];
-        for(int i = 0;i < 95;i++){
-            count[i].character = (char) i+32;
+        int ch[256] = {0};
+        for(char c : s){
+            ch[c]++;
         }
-        for(int j = 0; j < s.size(); j++){
-            count[s[j] - 32].cnt++;
+        priority_queue<pair<int,int>> pq;
+        for(int i = 0; i < 256; ++i){
+            if(ch[i] != 0)
+                pq.emplace(ch[i], i);
         }
-        sort(count,count+95,compare);
-
-        for(int i = 0; i < 95; i++){
-            for(int k = 0; k < count[i].cnt;k++){
-                cout << count[i].character;
-                output.insert(output.end(), count[i].character);
-            }
+        string ans;
+        while(pq.size()){
+            auto [freq, ch] = pq.top(); pq.pop();
+            for(int i = 0; i < freq; ++i)
+                ans += (char)ch;
         }
-        return output;
+        return ans;
     }
 };
