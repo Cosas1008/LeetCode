@@ -18,8 +18,9 @@ Geneous Collection
 - [x] 204  Count Primes
 - [x] 264  Ugly Number II
 - [x] 286  Walls and Gates
-- [ ] 304  Range Sum Query 2D - Immutable
+- [x] 304  Range Sum Query 2D - Immutable
 - [ ] 343  Integer Break
+- [x] 548  Split Array with Equal Sum
 - [ ] 564  Find the Closest Palindrome
 - [x] 720  Longest Word in Dictionary
 - [ ] 786  K-th Smallest Prime Fraction
@@ -72,9 +73,6 @@ Geneous Collection
 ### Design Problem
 - [x] 1206 Design Skiplist
 - [x] 1472 Design Browser History ( Stack / List )
-
-### 7 Reverse Integer
-kind of bit operation
 
 ### 13 Roman to Integer
 map, unordered_map<char, int> is more better way without casing the char to string

@@ -7,9 +7,11 @@
 - [x] 424   Longest Repeating Character Replacement			  ( Recommanded) 
 - [x] 438   Find All Anagrams in a String
 - [x] 632   Smallest Range Covering Elements from K Lists ( Hard )
-- [x] 862   Shortest Subarray with Sum at Least K
+- [x] 862   Shortest Subarray with Sum at Least K ( Hard )
 - [x] 904   Fruit Into Baskets
 - [x] 992   Subarrays with K Different Integers  ( Hard )
+- [x] 1234  Replace the Substring for Balanced String
+- [x] 1248  Count Number of Nice Subarrays
 - [x] 1493  Longest Subarray_of_1's_After_Delete_One_Element (cool)
 - [x] 1574  Shortest Subarray to be Removed to Make Array Sorted 
 - [x] 1658	Minimum Operations to Reduce X to Zero ( similar to two sum, hash)
@@ -36,8 +38,8 @@
 - [ ] 1498	Number of Subsequences That Satisfy the Given Sum Condition			  
 - [ ] 1499	Max Value of Equation			  
 - [ ] 1358  Number of Substrings Containing All Three Characters
-- [ ] 1248 Count Number of Nice Subarrays
-- [ ] Replace the Substring for Balanced String
+
+
 Binary Subarrays With Sum
 Fruit Into Baskets
 

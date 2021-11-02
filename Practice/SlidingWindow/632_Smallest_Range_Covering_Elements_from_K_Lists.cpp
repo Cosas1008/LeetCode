@@ -16,28 +16,28 @@ public:
         auto comp = [&](auto& a, auto& b){
             return A[a.first][a.second] > A[b.first][b.second];
         };
-
-        int k = A.size();
-        // assume to take large and small from [0] list
+        int n = A.size();
         int lo = INT_MAX, hi = INT_MIN;
         priority_queue<pair<int,int>, vector<pair<int,int>>, decltype(comp)> pq(comp);
-
-        for(int i = 0; i < k; ++i){
+        
+        for(int i = 0; i < n; ++i){
             lo = min(lo, A[i][0]);
             hi = max(hi, A[i][0]);
             pq.emplace(i, 0);
         }
         vector<int> ans({lo, hi});
-        while(!pq.empty()){
-            auto [i, j] = pq.top(); pq.pop();
-            if(A[i].size() == ++j) return ans; // reach end
-            pq.emplace(i, j);
-            auto [ii, jj] = pq.top(); // no pop here
-
-            lo = A[ii][jj];
-            hi = max(hi, A[i][j]);
+        
+        while(pq.size()){
+            auto [ k, i ] = pq.top(); pq.pop();
+            if(A[k].size() == ++i) return ans; // reach end
+            pq.emplace(k, i);
+            auto [kk, ii] = pq.top();
+            lo = A[kk][ii];
+            hi = max(hi, A[k][i]);
             if(hi - lo < ans[1] - ans[0]) ans = {lo, hi};
+            cout << "k : " << k << " i : " << i << " ans : " << ans[0] << ":" << ans[1] << endl;
         }
+        
         return ans;
     }
 };

@@ -14,3 +14,13 @@ The distance between 2 binary strings is the sum of their lengths after removing
 Given a list of binary strings, pick a pair that gives you maximum distance among all possible pair and return that distance.
 
 * Hint: Trie
+
+3. 727 Min Window Subsequence
+Given strings S and T
+Input: 
+S = "abcdebdde", T = "bde"
+Output: "bcde"
+Explanation: 
+"bcde" is the answer because it occurs before "bdde" which has the same length.
+"deb" is not a smaller window because the elements of T in the window must occur in order.
+ 

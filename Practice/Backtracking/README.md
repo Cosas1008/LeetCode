@@ -24,6 +24,7 @@ std::next_permutation(nums.begin(),nums.end(),[](int x, int y){return  x<=y ; })
 - [ ] 266  Palindrome Permutation 
 - [ ] 267  Palindrome Permutation II
 - [x] 301  Remove Invalid Parentheses
+- [x] 306  Additive Number
 - [x] 491  Increasing Subsequences
-- [x] 980  Unique Path III ( Backtracking + DFS )
+- [x] 980  Unique Path III ( Backtracking )
 - [x] 1718 Construct the Lexicographically Large Valid Sequence
