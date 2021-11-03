@@ -16,6 +16,7 @@ Geneous Collection
 - [x] 92   Reverse Linked List II
 - [x] 123  Best Time to Buy and Sell Stock III
 - [x] 204  Count Primes
+- [x] 241  Different Ways to Add Parentheses
 - [x] 264  Ugly Number II
 - [x] 286  Walls and Gates
 - [x] 304  Range Sum Query 2D - Immutable
