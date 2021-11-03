@@ -71,9 +71,6 @@ Geneous Collection
 ### Union Find
 - [x] 737 Sentence Similarity II
 
-### Design Problem
-- [x] 1206 Design Skiplist
-- [x] 1472 Design Browser History ( Stack / List )
 
 ### 13 Roman to Integer
 map, unordered_map<char, int> is more better way without casing the char to string
