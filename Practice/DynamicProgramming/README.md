@@ -7,6 +7,7 @@
 - [x] 85   Max Rectangle ( smart )
 - [x] 91   Decode Ways
 - [x] 115  Distinct Subsequence ( smart )
+- [x] 132  Palindrome Partitioning II ( Hard, smart )
 - [x] 139  Word Break
 - [x] 140  Word Break II 
 - [x] 198  House Robber
@@ -40,6 +41,7 @@
 - [x] 1770 Maximum Score from Performing Multiplication Operation
 - [x] 1723 Find Min Time to Finish All Jobs
 - [x] 1986 Min Number of Work Session to Finish the Tasks ( Masked BIT DP)
+- [x] 2019 The Score of Students Solving Math Equation ( Extreme, Similar to 312 )
 
 
 ### 44 Wildcard Matching

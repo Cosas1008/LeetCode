@@ -18,6 +18,7 @@ Geneous Collection
 - [x] 92   Reverse Linked List II
 - [x] 123  Best Time to Buy and Sell Stock III
 - [x] 204  Count Primes
+- [x] 241  Different Ways to Add Parentheses
 - [x] 253  Meeting Rooms II
 - [x] 264  Ugly Number II
 - [x] 286  Walls and Gates
@@ -76,9 +77,6 @@ Geneous Collection
 ### Union Find
 - [x] 737 Sentence Similarity II
 
-### Design Problem
-- [x] 1206 Design Skiplist
-- [x] 1472 Design Browser History ( Stack / List )
 
 ### 13 Roman to Integer
 map, unordered_map<char, int> is more better way without casing the char to string
