@@ -7,7 +7,7 @@
 - [x] 424   Longest Repeating Character Replacement			  ( Recommanded) 
 - [x] 438   Find All Anagrams in a String
 - [x] 632   Smallest Range Covering Elements from K Lists ( Hard )
-- [x] 862   Shortest Subarray with Sum at Least K ( Hard )
+- [x] 862   Shortest Subarray with Sum at Least K ( Hard, follow up from 209, only this time with negative values )
 - [x] 904   Fruit Into Baskets
 - [x] 992   Subarrays with K Different Integers  ( Hard )
 - [x] 1234  Replace the Substring for Balanced String

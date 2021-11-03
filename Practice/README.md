@@ -1,8 +1,10 @@
 ### Contest
 
 Geneous Collection
-#### 1987 Number of Unique Good Subsequence
-#### 1986 Min Number of Work Session to Finish the Tasks (classic TSP) 
+* 1402 Reducing Dishes ( One-Pass )
+* 1943 Describe the Painting ( Meeting Rooms II )
+* 1986 Min Number of Work Session to Finish the Tasks (classic TSP) 
+* 1987 Number of Unique Good Subsequence
 
 ### TODO List
 - [x] 8    String to Integer (atoi)
@@ -16,10 +18,12 @@ Geneous Collection
 - [x] 92   Reverse Linked List II
 - [x] 123  Best Time to Buy and Sell Stock III
 - [x] 204  Count Primes
+- [x] 253  Meeting Rooms II
 - [x] 264  Ugly Number II
 - [x] 286  Walls and Gates
 - [x] 304  Range Sum Query 2D - Immutable
 - [ ] 343  Integer Break
+- [x] 468  Validate IP Address
 - [x] 548  Split Array with Equal Sum
 - [ ] 564  Find the Closest Palindrome
 - [x] 720  Longest Word in Dictionary
@@ -37,10 +41,12 @@ Geneous Collection
 - [x] 1139 Largest 1-Bordered Square
 - [ ] 1289 Min Falling Path Sum II
 - [x] 1314 Matrix Block Sum
+- [x] 1402 Reducing Dishes
 - [x] 1567 Max Length of Subarray With Positive Product
 - [x] 1583 Count Unhappy Friends ( need to think again)
 - [x] 1630 Arithmetic Subarrays
 - [x] 1980 Find Unique Binary String
+- [x] 1943 Describe the Painting
 - [x] 1995 Count Special Quadruplets
 - [x] 2025 Maximum Number of Ways to Partition an Array ( Prefix Suffix )
 - [ ] 2030 Smallest K-Length Subsequence with Occurrence of a Letter
