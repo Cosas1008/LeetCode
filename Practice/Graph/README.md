@@ -3,6 +3,7 @@
 - [x] 130  Surrounded Regions
 - [x] 133  Clone Graph
 - [x] 200  Number of Islands
+- [x] 286  Walls and Gates
 - [ ] 310  Minimum Height Trees
 - [ ] 317  Shortest Distance from All Buildings ( not so hard, BFS is the key)
 - [x] 743  Network Delay Time

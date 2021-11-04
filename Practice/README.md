@@ -11,6 +11,7 @@ Geneous Collection
 - [x] 23   Merge K Sorted Lists
 - [x] 25   Reverse Nodes in k-Group ( Hard )
 - [x] 34   Find First and Last Position of Element in Sorted Array
+- [x] 41   First Missing Positive
 - [x] 54   Spiral Matrix
 - [x] 77   Combinations
 - [x] 85   Maximal Rectangle
@@ -21,7 +22,6 @@ Geneous Collection
 - [x] 241  Different Ways to Add Parentheses
 - [x] 253  Meeting Rooms II
 - [x] 264  Ugly Number II
-- [x] 286  Walls and Gates
 - [x] 304  Range Sum Query 2D - Immutable
 - [ ] 343  Integer Break
 - [x] 468  Validate IP Address
