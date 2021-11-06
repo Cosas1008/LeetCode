@@ -11,7 +11,7 @@ public:
         string_view longest;
         unordered_set<string_view> set;
         size_t begin = 1, end = s.length();
-        while(begin <= end){
+        while(begin <= end){ // less or equal to
             auto len = begin + (end - begin) / 2;
             bool found = false;
             for(size_t i = 0; i != s.length() + 1; i++){

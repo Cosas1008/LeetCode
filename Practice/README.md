@@ -46,6 +46,7 @@ Geneous Collection
 - [x] 1567 Max Length of Subarray With Positive Product
 - [x] 1583 Count Unhappy Friends ( need to think again)
 - [x] 1630 Arithmetic Subarrays
+- [x] 1713 Minimum Operations to Make a Subsequence (Longest Increasing Subsequence)
 - [x] 1980 Find Unique Binary String
 - [x] 1943 Describe the Painting
 - [x] 1995 Count Special Quadruplets

@@ -18,6 +18,7 @@
 - [x] 337  House Robber III
 - [x] 322  Coins Change ( Classic DP )
 - [x] 416  Partition Equal Subset.cpp
+- [x] 472  Concatenated Words ( Follow up from 132 Word Break, TLE )
 - [x] 494  Target Sum
 - [x] 518  Coins Change 2
 - [x] 546  Remove Boxes ( Easily TLE, Hard )
@@ -28,6 +29,7 @@
 - [x] 740  Delete and Earn
 - [x] 746  Min Cost Climbing Stairs
 - [x] 871  Min number of Refueling Stops
+- [x] 828  Count Unique Characters of All Substrings of a Given String
 - [x] 918  Maximum Sum Circular Subarray
 - [ ] 940  Distinct Subsequence II
 - [x] 1000 Minimum Cost to Merge Stone ( Hard )
