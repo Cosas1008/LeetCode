@@ -21,4 +21,10 @@ public:
         ret.insert(ret.begin() + insert_position, newInterval);
         return ret;
     }
-}
+    // Intuition Solution:
+    /*
+    First, put all intervals that are to the left of the inserted interval.
+    Second, merge all intervals that intersect with the inserted interval.
+    Finally, put all intervals that are to the right of the inserted interval.
+    */
+};

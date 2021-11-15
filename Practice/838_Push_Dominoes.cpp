@@ -8,32 +8,29 @@ Return a string representing the final state.
 */
 class Solution {
 public:
+    // One pass
     string pushDominoes(string d) {
-        d = 'L' + d + 'R';
-        string ans = "";
-        for(int i = 0, j = 1; j < d.length(); ++j){
-            if(d[j] == '.') continue;
-            int middle = j - i - 1;
-            if(i > 0)
-                ans += d[i];
-            if(d[i] == d[j])
-                ans += string(middle, d[i]);
-            else if(d[i] == 'L' && d[j] == 'R')
-                ans += string(middle, '.');
-            else
-                ans += string(middle/2, 'R') + string(middle % 2, '.') + string(middle/2, 'L');
-            i = j;
+        int force = 0;
+        int n = d.length();
+        vector<int> forces(n, 0);
+        // left to right
+        for(int i = 0; i < n; ++i){
+            if(d[i] == 'R') force = n;
+            else if(d[i] == 'L') force = 0;
+            else force = max(force-1, 0);
+            forces[i] += force;
+        }
+        // right to left
+        for(int i = n-1; i >= 0; --i){
+            if(d[i] == 'L') force = n;
+            else if(d[i] == 'R') force = 0;
+            else force = max(force-1, 0);
+            forces[i] -= force;
+        }
+        string ans;
+        for(int i = 0; i < n; ++i){
+            ans += forces[i] > 0? 'R' : forces[i] < 0? 'L' : '.';
         }
         return ans;
     }
 };
-
-// Better yet, travel from left-to-right and right-to-left to obtain distance between R and L
-for(int i=0; i<n; i++){
-    if(!l[i] && !r[i]) ans += s[i];
-    else if(!l[i]) ans += 'R';
-    else if(!r[i]) ans += 'L';
-    else if(l[i] == r[i]) ans += '.';
-    else if(l[i] > r[i]) ans += 'R';
-    else ans += 'L';
-}

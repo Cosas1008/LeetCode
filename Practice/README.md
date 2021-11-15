@@ -13,24 +13,29 @@ Geneous Collection
 - [x] 34   Find First and Last Position of Element in Sorted Array
 - [x] 41   First Missing Positive
 - [x] 54   Spiral Matrix
+- [x] 57   Insert Interval
 - [x] 77   Combinations
 - [x] 85   Maximal Rectangle
 - [x] 88   Merge Sorted Array
 - [x] 92   Reverse Linked List II
 - [x] 123  Best Time to Buy and Sell Stock III
+- [ ] 127  Word Ladder ( Same as 433)
 - [x] 204  Count Primes
 - [x] 241  Different Ways to Add Parentheses
 - [x] 253  Meeting Rooms II
 - [x] 264  Ugly Number II
 - [x] 304  Range Sum Query 2D - Immutable
 - [ ] 343  Integer Break
+- [x] 433  Min Gentic Mutation
 - [x] 468  Validate IP Address
 - [x] 548  Split Array with Equal Sum
 - [ ] 564  Find the Closest Palindrome
 - [x] 720  Longest Word in Dictionary
+- [ ] 777  Swap Adjacent in LR String
 - [ ] 786  K-th Smallest Prime Fraction
 - [x] 826  Most Profit Assigning Work
 - [x] 835  Image Overlap ( Smart )
+- [x] 838  Push Dominoes
 - [x] 885  Spiral Matrix III
 - [x] 931  Min Falling Path Sum
 - [ ] 949  Largest Time for Given Digits

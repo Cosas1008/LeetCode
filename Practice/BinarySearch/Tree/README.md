@@ -27,6 +27,7 @@ Interesting problem..
 - [x] 103  BT Zigzag Level Order Traversal
 - [x] 113  Path Sum II
 - [x] 124  Binary Tree Maximum Path Sum (DP)
+- [x] 129  Sum Root to Leaf Numbers
 - [x] 156  Binary Tree Upside-down
 - [x] 230  Kth Smallest Element in a BST ( Recommanded )
 - [x] 297  Serialize and Deserialize BST ( same as 449 )
@@ -41,6 +42,7 @@ Interesting problem..
 - [x] 783  Min Distance Between BST Nodes ( Inorder Traversal, easy, same as  530)
 - [x] 968  Binary Tree Cameras
 - [x] 979  Distribute Coins in Binary Tree
+- [x] 988  Smallest String Starting From Leaf
 - [x] 1008 Construct BST from Preorder Traversal
 - [x] 1098 Path Sum IV
 - [x] 1120 Max Average Subtree ( DFS )
