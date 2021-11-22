@@ -7,6 +7,7 @@
 - [x] 81   Search in Rotated Sorted Array II ( Solve 154 too )
 - [x] 162  Find Peak Element
 - [x] 483  Smallest Good Base ( Hard )
+- [x] 540  Single Element in a Sorted Array
 - [x] 658  Find K Clostest Element
 - [x] 668  Kth Smallest in Multiply Matrix
 - [x] 719  Find K-th smallest pair ( Hard )
