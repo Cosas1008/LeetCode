@@ -19,7 +19,10 @@ Geneous Collection
 - [x] 88   Merge Sorted Array
 - [x] 92   Reverse Linked List II
 - [x] 123  Best Time to Buy and Sell Stock III
-- [ ] 127  Word Ladder ( Same as 433)
+- [ ] 126  Word Ladder II
+- [x] 127  Word Ladder ( Same as 433)
+- [x] 149  Max Points on a Line
+- [x] 166  Fraction to Recurring Decimal
 - [x] 204  Count Primes
 - [x] 241  Different Ways to Add Parentheses
 - [x] 253  Meeting Rooms II
@@ -31,7 +34,8 @@ Geneous Collection
 - [x] 548  Split Array with Equal Sum
 - [ ] 564  Find the Closest Palindrome
 - [x] 720  Longest Word in Dictionary
-- [ ] 777  Swap Adjacent in LR String
+- [x] 763  Partition Labels
+- [x] 777  Swap Adjacent in LR String
 - [ ] 786  K-th Smallest Prime Fraction
 - [x] 826  Most Profit Assigning Work
 - [x] 835  Image Overlap ( Smart )
@@ -57,6 +61,8 @@ Geneous Collection
 - [x] 1995 Count Special Quadruplets
 - [x] 2025 Maximum Number of Ways to Partition an Array ( Prefix Suffix )
 - [ ] 2030 Smallest K-Length Subsequence with Occurrence of a Letter
+- [x] 2091 Removeing Min and Max From Array
+- [x] 2092 Find All People With Secret
 
 ### Practice
 

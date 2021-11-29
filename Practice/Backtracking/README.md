@@ -14,7 +14,8 @@ std::next_permutation(nums.begin(),nums.end(),[](int x, int y){return  x<=y ; })
 - [x] 10   Regular Expression Matching
 - [x] 22   Generate Parentheses
 - [x] 31   Next Permutation
-- [x] 47   Permutation (Unique)
+- [x] 46   Permutations (Unique)
+- [x] 47   Permutation
 - [x] 51   N Queen
 - [x] 52   N Queen II
 - [x] 60   Permutation Sequence ( use std )
