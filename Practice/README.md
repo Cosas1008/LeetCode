@@ -52,9 +52,11 @@ Geneous Collection
 - [ ] 1289 Min Falling Path Sum II
 - [x] 1314 Matrix Block Sum
 - [x] 1402 Reducing Dishes
+- [x] 1546 Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 - [x] 1567 Max Length of Subarray With Positive Product
 - [x] 1583 Count Unhappy Friends ( need to think again)
 - [x] 1630 Arithmetic Subarrays
+- [x] 1674 Minimum Moves to Make Array Complementary ( Hard )
 - [x] 1713 Minimum Operations to Make a Subsequence (Longest Increasing Subsequence)
 - [x] 1980 Find Unique Binary String
 - [x] 1943 Describe the Painting
