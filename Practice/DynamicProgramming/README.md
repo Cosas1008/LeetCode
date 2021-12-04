@@ -17,6 +17,7 @@
 - [x] 312  Burst Balloons
 - [x] 337  House Robber III
 - [x] 322  Coins Change ( Classic DP )
+- [x] 409  Frog Jump
 - [x] 416  Partition Equal Subset.cpp
 - [x] 472  Concatenated Words ( Follow up from 132 Word Break, TLE )
 - [x] 494  Target Sum
@@ -42,6 +43,7 @@
 - [x] 1654 Min Jumps to Reach Home
 - [x] 1770 Maximum Score from Performing Multiplication Operation
 - [x] 1723 Find Min Time to Finish All Jobs
+- [x] 1824 Min Sideway Jumps ( similar to 409 Frog Jump )
 - [x] 1986 Min Number of Work Session to Finish the Tasks ( Masked BIT DP)
 - [x] 2019 The Score of Students Solving Math Equation ( Extreme, Similar to 312 )
 
