@@ -28,6 +28,7 @@ Geneous Collection
 - [x] 253  Meeting Rooms II
 - [x] 264  Ugly Number II
 - [x] 304  Range Sum Query 2D - Immutable
+- [x] 324  Wiggle Sort II ( genius )
 - [ ] 343  Integer Break
 - [x] 433  Min Gentic Mutation
 - [x] 468  Validate IP Address
@@ -65,6 +66,7 @@ Geneous Collection
 - [ ] 2030 Smallest K-Length Subsequence with Occurrence of a Letter
 - [x] 2091 Removeing Min and Max From Array
 - [x] 2092 Find All People With Secret
+- [x] 2095 Delete the Middle Node of a Linked List
 
 ### Practice
 

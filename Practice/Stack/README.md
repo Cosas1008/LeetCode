@@ -14,5 +14,6 @@
 - [x] 856  Score of Parentheses
 - [x] 901  Online Stock Span
 - [x] 907  Sum of Subarray Minimums (Interesting thought)
+- [x] 1019 Next Greater Node in Linked List ( Similar to 503 Next Greater Element)
 - [x] 1130 Min Cost Tree From Leaf Values
 - [x] 1793 Max Score of a Good Subarray

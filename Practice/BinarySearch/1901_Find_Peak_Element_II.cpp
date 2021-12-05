@@ -5,7 +5,7 @@ You must write an algorithm that runs in O(m log(n)) or O(n log(m)) time.
 class Solution {
 public:
     vector<int> findPeakGrid(vector<vector<int>>& mat) {
-        int minCol = 0, maxCol = mat[0].size()-1, m = mat.size(), n = mat[0].size();
+        int minCol = 0, maxCol = mat[0].size()-1, m = mat.size();
         while(minCol <= maxCol){ // <= is important here
             int midCol = minCol + (maxCol - minCol) / 2;
             int maxRow = 0;

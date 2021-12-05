@@ -1,6 +1,8 @@
 # Design Problem
 
 ### TODO
+- [x] 146  LRU Cache
+- [ ] 460  LFU Cache
 - [x] 535  Encode and Decode TinyURL
 - [x] 981  Time Based Key-Value Store
 - [x] 1032 Stream of Characters

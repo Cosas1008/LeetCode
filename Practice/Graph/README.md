@@ -26,7 +26,7 @@
 - [x] 1761 Minimum Degree of a Connected Trio in a Graph
 - [x] 1905 Count Sub Islands (DFS, way to deal with boundary)
 - [x] 1976 Number of Ways to Arrive at Destination ( Dijkstra )
-
+- [x] 2096 Valid Arrangement of Pairs
 ### Basic
 
 1. DFS and BFS    
