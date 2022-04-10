@@ -31,14 +31,14 @@ public:
 class Solution {
 public:
     int rob(TreeNode* root) {
-        int left, right;
-        return tryRob(root, left, right);
+        int l = 0, r = 0;
+        return tryrob(root, l, r);
     }
-    int tryRob(TreeNode* rt, int& left, int & right){
-        if(!rt) return 0;
+    int tryrob(TreeNode* root, int& l, int& r){
+        if(!root) return 0;
         int ll = 0, lr = 0, rl = 0, rr = 0;
-        left = tryRob(rt->left, ll, lr);
-        right = tryRob(rt->right, rl, rr);
-        return max(rt->val + ll + lr + rl + rr, left + right);
+        l = tryrob(root->left, ll, lr);
+        r = tryrob(root->right, rl, rr);
+        return max(root->val + ll + lr + rl + rr, l + r);
     }
 };

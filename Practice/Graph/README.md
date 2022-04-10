@@ -3,6 +3,7 @@
 - [x] 130  Surrounded Regions
 - [x] 133  Clone Graph
 - [x] 200  Number of Islands
+- [x] 210  Course Schedule II ( didn't find it is graph question at first)
 - [x] 286  Walls and Gates
 - [ ] 310  Minimum Height Trees
 - [ ] 317  Shortest Distance from All Buildings ( not so hard, BFS is the key)
@@ -26,7 +27,7 @@
 - [x] 1761 Minimum Degree of a Connected Trio in a Graph
 - [x] 1905 Count Sub Islands (DFS, way to deal with boundary)
 - [x] 1976 Number of Ways to Arrive at Destination ( Dijkstra )
-
+- [x] 2096 Valid Arrangement of Pairs
 ### Basic
 
 1. DFS and BFS    

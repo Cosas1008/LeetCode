@@ -30,6 +30,8 @@ Interesting problem..
 - [x] 129  Sum Root to Leaf Numbers
 - [x] 156  Binary Tree Upside-down
 - [x] 230  Kth Smallest Element in a BST ( Recommanded )
+- [x] 235  Lowest Common Ancestor of a BST
+- [x] 236  Lowest Common Ancestor of a BT
 - [x] 297  Serialize and Deserialize BST ( same as 449 )
 - [x] 333  Largest BST Subtree ( follow up from 98)
 - [x] 437  Path Sum III
@@ -39,6 +41,7 @@ Interesting problem..
 - [x] 654  Maximum Binary Tree ( *Cartesian tree* )
 - [x] 655  Print Binary Tree
 - [x] 671  Second Min Node in a BT ( DFS or BFS best practice )
+- [x] 687  Longest Univalue Path
 - [x] 783  Min Distance Between BST Nodes ( Inorder Traversal, easy, same as  530)
 - [x] 968  Binary Tree Cameras
 - [x] 979  Distribute Coins in Binary Tree
@@ -52,7 +55,7 @@ Interesting problem..
 - [x] 1361 Validate Binary Tree Node ( personally, it should be hard )
 - [x] 1372 Longeset ZigZag Path in a BT
 - [ ] 1457 Pseudo-Palindromic Paths in a Binary Tree
-
+- [x] 2096 Step-By-Step Directions From a Binary Tree Node to Another ( smart, DFS)
 
 * Follow up for 230
 Assume we have to modify and query K-th smallest element in a BST frequently, how to optimize   
