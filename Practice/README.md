@@ -10,6 +10,7 @@ Geneous Collection
 - [x] 8    String to Integer (atoi)
 - [x] 23   Merge K Sorted Lists
 - [x] 25   Reverse Nodes in k-Group ( Hard )
+- [x] 28   Implement strStr()
 - [x] 34   Find First and Last Position of Element in Sorted Array
 - [x] 41   First Missing Positive
 - [x] 54   Spiral Matrix

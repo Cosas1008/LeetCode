@@ -4,6 +4,30 @@
 #include <vector>
 
 using namespace std;
+int solve(int t){
+    cout << "Case #" << t << ": ";
+    int x, y;
+    string s;
+    cint >> x >> y >> s;
+    int n = (int)s.length();
+    vector<vector<int>> dp(n+1, vector<int>(2, 1e9));
+    dp[0][0] = dp[0][1] = 0;
+    for(int i = 1; i <= n; ++i){
+        for(int c = 0; c < 2; ++c){
+            if(c == 0 && s[i-1] == 'J') continue;
+            if(c == 1 && s[i-1] == 'C') continue;
+            for(int d = 0; d < 2; ++d){
+                int cost = 0;
+                if(i > 1){
+                    if(d == 0 && c == 1) cost += x; // CJ
+                    if(d == 1 && c == 0) cost += y; // JC
+                }
+                dp[i][c] = min(dp[i][c], dp[i-1][d] + cost);
+            }
+        }
+    }
+    cout << min(dp[n][0], dp[n][1]) << "\n";
+}
 
 int countRepeat(string b, string a){
     int cnt = 0;
