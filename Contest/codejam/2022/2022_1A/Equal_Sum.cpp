@@ -18,8 +18,9 @@ int main(){
             A.push_back(1<<i);
         
         for(int i = 0; i < N; ++i)
-            cout << A[i] << " \n"[i+1==N];
+            cout << A[i] << " ";
         
+        cout << endl;
         cout << flush;
         
         A.resize(2*N);
@@ -34,7 +35,7 @@ int main(){
         for(auto x : A){
             if(x > s) continue;
             s -= x;
-            cout << x;
+            cout << x << " ";
         }
         cout << endl;
         cout << flush;
