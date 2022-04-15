@@ -1,5 +1,6 @@
 
-List
-- [ ] AppendSort
-- [ ] Prime Time
+Problem List
+
+- [x] AppendSort
+- [x] Prime Time
 - [ ] Hacked Exam

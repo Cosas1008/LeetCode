@@ -1,4 +1,3 @@
-// Pass S1 S2
 #include<iostream>
 #include<vector>
 using namespace std;

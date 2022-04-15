@@ -4,5 +4,9 @@ List
 - [x] Punched Cards
 - [x] 3D Printing 
 - [x] d1000000
-- [ ] Chain Reaction
+- [x] Chain Reaction
 - [ ] Twisted Little Passage
+
+### Chain Reaction
+
+Greedy can solve
