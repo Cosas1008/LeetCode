@@ -14,6 +14,22 @@ Since 4193 is in the range [-231, 231 - 1], the final result is 4193.
 class Solution {
 public:
     int myAtoi(string s) {
+      int i = 0, neg = 1;
+      long long ans = 0;
+      while(s[i] == ' ') i++;
+      if(s[i] == '-') neg = -1, i++;
+      else if(s[i] == '+') neg = 1, i++;
+      while(s[i] >= '0' && s[i] <= '9'){
+        ans = ans * 10 + s[i++] - '0';
+        if(ans > INT_MAX) break;
+      }
+      return ans > INT_MAX? neg==-1? INT_MIN : INT_MAX : neg * ans;
+    }
+};
+// Complex
+class Solution {
+public:
+    int myAtoi(string s) {
         int len = s.length();
         int start = 0;
         bool negative = false;

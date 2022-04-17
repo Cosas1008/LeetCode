@@ -51,6 +51,7 @@ Geneous Collection
 - [x] 1042 Flower Planting With No Adjacent ( Greedy )
 - [x] 1087 Brace Expansion
 - [x] 1139 Largest 1-Bordered Square
+- [x] 1230 Toss Strange Coins ( kind of DP )
 - [ ] 1289 Min Falling Path Sum II
 - [x] 1314 Matrix Block Sum
 - [x] 1402 Reducing Dishes

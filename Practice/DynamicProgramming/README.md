@@ -4,7 +4,7 @@
 - [x] 53   Maximum Subarray
 - [x] 62   Unique Paths
 - [x] 63   Unique Paths II
-- [ ] 72   Edit Distance
+- [x] 72   Edit Distance
 - [x] 85   Max Rectangle ( smart )
 - [x] 91   Decode Ways
 - [x] 115  Distinct Subsequence ( smart )
@@ -26,6 +26,7 @@
 - [x] 516  Longest Palindrome Subsequence
 - [x] 518  Coins Change 2
 - [x] 546  Remove Boxes ( Easily TLE, Hard )
+- [x] 583  Delete Operation for Two Strings (LCS extends)
 - [x] 639  Decode Ways II 
 - [x] 647  Palindromic Substrings ( need to practice again)
 - [x] 673  Number of Longest Increasing Subsequence ( Good Question )
@@ -47,6 +48,7 @@
 - [x] 1187 Make Array Strictly Increasing ( Hard )
 - [x] 1235 Max Profit in Job Scheduling ( Hard )
 - [x] 1239 Max Length of a Concatenated String with Unique Characters ( bitset )
+- [x] 1312 Min Insertion to make Palindrome
 - [x] 1335 Min Difficulty of a Job Schedule
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1654 Min Jumps to Reach Home
@@ -84,6 +86,3 @@ nums1 and nums2
 ### 943 Find the Shortest Superstring
 
 ![LCS](https://assets.leetcode.com/users/votrubac/image_1564691262.png)
-
-- [x] 1143 Longest Common Subsequence
-- [x] 1312 Min Insertion to make Palindrome
