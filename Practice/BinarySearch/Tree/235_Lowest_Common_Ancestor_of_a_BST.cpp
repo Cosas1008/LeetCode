@@ -12,7 +12,7 @@ class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         int pval = p->val, qval = q->val;
-        if(pval < qval) return lowestCommonAncestor(root, q, p);
+        if(pval < qval) return lowestCommonAncestor(root, q, p); // make sure p is always greater
         if(root->val > pval){ // case1 root->val > p -> left
             return lowestCommonAncestor(root->left, p, q);
         } else if(root->val < qval){ // case2 root->val < p and root->val < q ->right

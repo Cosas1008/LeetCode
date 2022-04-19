@@ -24,6 +24,7 @@ Interesting problem..
 # Problems
 - [x] 95   Unique BST II (TL;DR)
 - [x] 98   Validate BST
+- [x] 99   Recover BST
 - [x] 103  BT Zigzag Level Order Traversal
 - [x] 113  Path Sum II
 - [x] 124  Binary Tree Maximum Path Sum (DP)
