@@ -44,6 +44,7 @@ Interesting problem..
 - [x] 671  Second Min Node in a BT ( DFS or BFS best practice )
 - [x] 687  Longest Univalue Path
 - [x] 783  Min Distance Between BST Nodes ( Inorder Traversal, easy, same as  530)
+- [x] 897  Increasing Order Search Tree
 - [x] 968  Binary Tree Cameras
 - [x] 979  Distribute Coins in Binary Tree
 - [x] 988  Smallest String Starting From Leaf
@@ -57,6 +58,9 @@ Interesting problem..
 - [x] 1372 Longeset ZigZag Path in a BT
 - [ ] 1457 Pseudo-Palindromic Paths in a Binary Tree
 - [x] 2096 Step-By-Step Directions From a Binary Tree Node to Another ( smart, DFS)
+
+* 897 Increasing Order Search Tree
+![iost](https://assets.leetcode.com/uploads/2020/11/17/ex1.jpg)
 
 * Follow up for 230
 Assume we have to modify and query K-th smallest element in a BST frequently, how to optimize   
