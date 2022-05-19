@@ -20,6 +20,7 @@
 - [x] 939  Min Area Rectangle
 - [ ] 1129 Shortest Path with Alternating Colors
 - [ ] 1162 As Far from Land as Possible
+- [x] 1192 Critical Connections in a Network (  Tarjan's Bridge-Finding Algorithm (TBFA) )
 - [x] 1267 Count Servers that Communicate
 - [ ] 1319 Number of Operations to Make Network Connected
 - [ ] 1514 Path with Maximum Probability
@@ -39,6 +40,7 @@
 ### Algorithms
 1. Bellman Ford
 2. Dijkstra's
+3. Tarjan's Bridge-Finding Algorithm (TBFA)
 
 ### Union Find
 ```

@@ -14,6 +14,7 @@
 - [x] 198  House Robber
 - [x] 213  House Robber II
 - [x] 221  Max Square
+- [x] 256  Paint House
 - [x] 279  Perfect Square
 - [x] 300  Longest Increasing Subsequence
 - [x] 312  Burst Balloons
@@ -32,6 +33,7 @@
 - [x] 673  Number of Longest Increasing Subsequence ( Good Question )
 - [x] 674  Longest Continuous Increasing Subsequence ( Easy )
 - [x] 712  Minimum ASCII Delete Sum for Two Strings
+- [x] 714  Best Time to Buy and Sell Stock with Transaction Fee
 - [x] 718  Max Length of Repeated Subarray
 - [ ] 730  Count Different Palindromic Subsequences
 - [x] 740  Delete and Earn
@@ -50,6 +52,7 @@
 - [x] 1239 Max Length of a Concatenated String with Unique Characters ( bitset )
 - [x] 1312 Min Insertion to make Palindrome
 - [x] 1335 Min Difficulty of a Job Schedule
+- [x] 1388 Pizza with 3n Slices
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1654 Min Jumps to Reach Home
 - [x] 1770 Maximum Score from Performing Multiplication Operation

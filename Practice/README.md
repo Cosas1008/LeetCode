@@ -30,11 +30,13 @@ Geneous Collection
 - [x] 264  Ugly Number II
 - [x] 304  Range Sum Query 2D - Immutable
 - [x] 324  Wiggle Sort II ( genius )
+- [x] 329  Longest Increasing Path in a Matrix ( DFS )
 - [ ] 343  Integer Break
 - [x] 433  Min Gentic Mutation
 - [x] 468  Validate IP Address
 - [x] 548  Split Array with Equal Sum
 - [ ] 564  Find the Closest Palindrome
+- [x] 581  Shortest Unsorted Continuous Subarray ( 3 ways )
 - [x] 720  Longest Word in Dictionary
 - [x] 763  Partition Labels
 - [x] 777  Swap Adjacent in LR String
@@ -43,6 +45,7 @@ Geneous Collection
 - [x] 835  Image Overlap ( Smart )
 - [x] 838  Push Dominoes
 - [x] 885  Spiral Matrix III
+- [x] 905  Sort Array by Parity
 - [x] 931  Min Falling Path Sum
 - [ ] 949  Largest Time for Given Digits
 - [ ] 963  Min Area Rectangle II
