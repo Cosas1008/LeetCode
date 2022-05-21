@@ -18,8 +18,8 @@
 - [x] 279  Perfect Square
 - [x] 300  Longest Increasing Subsequence
 - [x] 312  Burst Balloons
+- [x] 322  Coins Change
 - [x] 337  House Robber III
-- [x] 322  Coins Change ( Classic DP )
 - [x] 409  Frog Jump
 - [x] 416  Partition Equal Subset.cpp
 - [x] 472  Concatenated Words ( Follow up from 132 Word Break, TLE )

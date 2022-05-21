@@ -1,7 +1,8 @@
 - [x] 3     Longest Substring Without Repeating Characters		
-- [x] 30    Substring with Concatenation of All Words ( should be simple )  	  
-- [x] 76    Minimum Window Substring		( should be simple )	  	  
+- [x] 30    Substring with Concatenation of All Words 	  
+- [x] 76    Minimum Window Substring	  	  
 - [x] 209   Minimum Size Subarray Sum
+- [x] 239   Sliding Window Max
 - [x] 340   Longest Substring with At Most K Distinct Characters   
 - [x] 395   Longest Substring with At Least K Repeating Characters			  
 - [x] 424   Longest Repeating Character Replacement			  ( Recommanded) 
@@ -17,27 +18,26 @@
 - [x] 1658	Minimum Operations to Reduce X to Zero ( similar to two sum, hash)
 - [x] 1888  Mininum Number of Flips to Make the Binary String Alternation
 
-## TODO
-- [ ] 239   Sliding Window Maximum			  
+## TODO			  
 - [ ] 480   Sliding Window Median			  
 - [ ] 567   Permutation in String			    
 - [ ] 727   Minimum Window Subsequence    
 - [ ] 978   Longest Turbulent Subarray	  
 - [ ] 995	Minimum Number of K Consecutive Bit Flips			     
 - [ ] 1004	Max Consecutive Ones III			  
-- [ ] 1100	Find K-Length Substrings With No Repeated Characters	  
-- [ ] 1151	Minimum Swaps to Group All 1's Together  
 - [ ] 1040	Moving Stones Until Consecutive II		   
 - [ ] 1052	Grumpy Bookstore Owner			  
 - [ ] 1074	Number of Submatrices That Sum to Target			  
+- [ ] 1100	Find K-Length Substrings With No Repeated Characters	  
+- [ ] 1151	Minimum Swaps to Group All 1's Together  
 - [ ] 1176	Diet Plan Performance  
 - [ ] 1208	Get Equal Substrings Within Budget	  		
+- [ ] 1358  Number of Substrings Containing All Three Characters
 - [ ] 1423	Maximum Points You Can Obtain from Cards   			
 - [ ] 1438	Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit	
 - [ ] 1456	Maximum Number of Vowels in a Substring of Given Length			  
 - [ ] 1498	Number of Subsequences That Satisfy the Given Sum Condition			  
 - [ ] 1499	Max Value of Equation			  
-- [ ] 1358  Number of Substrings Containing All Three Characters
 
 
 Binary Subarrays With Sum

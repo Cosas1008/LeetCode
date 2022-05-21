@@ -3,10 +3,12 @@
 - [x] 130  Surrounded Regions
 - [x] 133  Clone Graph
 - [x] 200  Number of Islands
-- [x] 210  Course Schedule II ( didn't find it is graph question at first)
+- [x] 207  Course Schedule ( cycle detection )
+- [x] 210  Course Schedule II
 - [x] 286  Walls and Gates
 - [ ] 310  Minimum Height Trees
 - [ ] 317  Shortest Distance from All Buildings ( not so hard, BFS is the key)
+- [x] 399  Evaluate Division ( DFS )
 - [x] 743  Network Delay Time
 - [x] 778  Swim in Rising Water
 - [x] 785  Is Graph Bipartite?
@@ -34,6 +36,7 @@
 1. DFS and BFS    
 2. Union Find    
 3. Adjacency Matrix   
+4. Topology Search
 
 [Youtube](https://www.youtube.com/watch?v=09_LlHjoEiY)
 
