@@ -5,7 +5,6 @@
 - [x] 62   Unique Paths
 - [x] 63   Unique Paths II
 - [x] 72   Edit Distance
-- [x] 85   Max Rectangle ( smart )
 - [x] 91   Decode Ways
 - [x] 115  Distinct Subsequence ( smart )
 - [x] 132  Palindrome Partitioning II ( Hard, smart )

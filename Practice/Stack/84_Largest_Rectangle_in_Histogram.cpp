@@ -6,6 +6,22 @@ The largest rectangle is shown in the red area( from 5 to 6 ), which has an area
 */
 class Solution {
 public:
+    // Using Stack 1-pass
+    int largestRectangleArea(vector<int>& heights) {
+        int ret = 0;
+        vector<int> index;
+        heights.push_back(0); // key here
+        for(int i = 0; i < heights.size(); i++){
+            while(index.size() && heights[index.back()] >= heights[i]){
+                int h = heights[index.back()];
+                index.pop_back();
+                int first = index.size()>0? index.back() : -1;
+                ret = max(ret, h * (i - first - 1));
+            }
+            index.push_back(i);
+        }
+        return ret;
+    }
     // 2-pass
     int largestRectangleArea(vector<int>& heights) {
         int maxArea = 0, n = heights.size();
@@ -27,21 +43,5 @@ public:
         for(int i = 0; i < n; i++)
             maxArea = max(maxArea, heights[i] * (right[i] - left[i] - 1));
         return maxArea;
-    }
-    // Using Stack 1-pass
-    int largestRectangleArea(vector<int>& heights) {
-        int ret = 0;
-        vector<int> index;
-        heights.push_back(0); // key here**
-        for(int i = 0; i < heights.size(); i++){
-            while(index.size() && heights[index.back()] >= heights[i]){
-                int h = heights[index.back()];
-                index.pop_back();
-                int first = index.size()>0? index.back() : -1;
-                ret = max(ret, h * (i - first - 1));
-            }
-            index.push_back(i);
-        }
-        return ret;
     }
 };

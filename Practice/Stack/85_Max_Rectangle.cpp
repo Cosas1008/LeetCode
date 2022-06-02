@@ -3,6 +3,33 @@ Given a rows x cols binary matrix filled with 0's and 1's, find the largest rect
 */
 class Solution {
 public:
+    // Stack
+    int maximalRectangle(vector<vector<char>>& matrix){
+        int m = matrix[0].size();
+        int n = matrix.size();
+        int ans = 0;
+        vector<int> h(m, 0);
+        for(int row = 0; row < n; ++row){
+            stack<int> st;
+            for(int col = 0; col <= m; ++col){
+                if(col != m){
+                    h[i] = (matrix[row][col] == '1')? 1 + h[i] : 0;
+                }
+                if(st.empty() || h[st.top()] <= h[i])
+                    st.push(i);
+                else{
+                    while(!st.empty() && h[i] < h[st.top()]){
+                        int t = st.top(); st.pop();
+                        int area = h[t] * (st.empty()? i : (i - st.top() - 1));
+                        ans = max(ans, area);
+                    }
+                    st.push(i);
+                }
+            }
+        }
+        return ans;
+    }
+    // DP
     int maximalRectangle(vector<vector<char>>& matrix) {
         int m = matrix.size();
         if(m == 0) return 0;
