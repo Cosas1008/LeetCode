@@ -2,7 +2,7 @@
 - [x] 30    Substring with Concatenation of All Words 	  
 - [x] 76    Minimum Window Substring	  	  
 - [x] 209   Minimum Size Subarray Sum
-- [x] 239   Sliding Window Max
+- [x] 239   Sliding Window Max  ( Recommanded )
 - [x] 340   Longest Substring with At Most K Distinct Characters   
 - [x] 395   Longest Substring with At Least K Repeating Characters			  
 - [x] 424   Longest Repeating Character Replacement			  ( Recommanded) 

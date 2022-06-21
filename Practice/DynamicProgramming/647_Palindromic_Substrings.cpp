@@ -24,5 +24,32 @@ public:
         return count;
     }
 };
-
-// ref https://leetcode.com/problems/palindromic-substrings/discuss/475745/C%2B%2B-dp-solution%3A-recursive-greater-memoization-greater-tabulation
+// Understandable approach
+class Solution {
+public:
+    int countSubstrings(string s) {
+        int n = s.length();
+        int ans = 0;
+        bool dp[n][n];
+        fill_n(*dp, n*n, false);
+        
+        // single letter
+        for(int i = 0; i < n; ++i, ++ans)
+            dp[i][i] = true;
+        
+        // double letters
+        for(int i = 0; i < n - 1; ++i ){
+            dp[i][i+1] = s[i] == s[i+1];
+            ans += dp[i][i+1];
+        }
+        
+        // other 3+ letters
+        for(int len = 3; len <= n; ++len)
+            for(int i = 0, j = i + len - 1; j < n; ++i, ++j){
+                dp[i][j] = dp[i+1][j-1] && (s[i] == s[j]);
+                ans += dp[i][j];
+            }
+        
+        return ans;
+    }
+};

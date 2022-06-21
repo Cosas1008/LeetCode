@@ -9,5 +9,7 @@ Hint: Use GCD
 Smart way to make k-sum the key to search hash table
 
 ### TODO
+- [x] 1    Two Sum
 - [x] 560  Subarray Sum Equal K
-- [ ] 1124 Longest Well-Performing Interval
+- [x] 820  Short Encoding of Words
+- [x] 1124 Longest Well-Performing Interval

@@ -19,6 +19,7 @@
 - [x] 901  Online Stock Span
 - [x] 907  Sum of Subarray Minimums (Interesting thought)
 - [x] 1019 Next Greater Node in Linked List ( Similar to 503 Next Greater Element)
+- [x] 1081 Smallest Subsequence of Distinct Characters
 - [x] 1130 Min Cost Tree From Leaf Values
 - [x] 1249 Min Remove to Make Valid Parentheses
 - [x] 1793 Max Score of a Good Subarray

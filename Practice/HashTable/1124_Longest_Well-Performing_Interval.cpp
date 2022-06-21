@@ -1,6 +1,10 @@
 /*
 A well-performing interval is an interval of days for which the number of tiring days is strictly larger than the number of non-tiring days.
 A day is considered to be a tiring day if and only if the number of hours worked is (strictly) greater than 8.
+
+Input: hours = [9,9,6,0,6,6,9]
+Output: 3
+Explanation: The longest well-performing interval is [9,9,6].
 */
 class Solution {
 public:

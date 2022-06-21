@@ -6,7 +6,7 @@
 - [x] 207  Course Schedule ( cycle detection )
 - [x] 210  Course Schedule II
 - [x] 286  Walls and Gates
-- [ ] 310  Minimum Height Trees
+- [x] 310  Minimum Height Trees
 - [ ] 317  Shortest Distance from All Buildings ( not so hard, BFS is the key)
 - [x] 399  Evaluate Division ( DFS )
 - [x] 743  Network Delay Time
@@ -23,6 +23,7 @@
 - [ ] 1129 Shortest Path with Alternating Colors
 - [ ] 1162 As Far from Land as Possible
 - [x] 1192 Critical Connections in a Network (  Tarjan's Bridge-Finding Algorithm (TBFA) )
+- [ ] 1254 Number of Closed Islands
 - [x] 1267 Count Servers that Communicate
 - [ ] 1319 Number of Operations to Make Network Connected
 - [ ] 1514 Path with Maximum Probability
