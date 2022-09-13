@@ -1,5 +1,6 @@
 # List:
 
+- [x] 5    Longest Palindromic Substring
 - [x] 44   Wildcard Matching
 - [x] 53   Maximum Subarray
 - [x] 62   Unique Paths
