@@ -6,6 +6,13 @@ Geneous Collection
 * 1986 Min Number of Work Session to Finish the Tasks (classic TSP) 
 * 1987 Number of Unique Good Subsequence
 
+- [ ]  Unique Paths II
+- [ ]  Lowest Common Ancester
+- [ ]  523 Continuous Subarray Sum
+- [ ]  713.
+- [ ]  Subarray Product Less Than K
+- [ ]  2155. All Divisions With the Highest Score of a Binary Array
+- [ ]  Combinations
 ### TODO List
 - [x] 8    String to Integer (atoi)
 - [x] 23   Merge K Sorted Lists

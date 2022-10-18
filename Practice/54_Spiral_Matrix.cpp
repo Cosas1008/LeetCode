@@ -1,6 +1,24 @@
 
 class Solution {
 public:
+    vector<int> spiralOrder(vector<vector<int>>& matrix){
+        vector<vector<int>> dir{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        vector<int> res;
+        int m = matrix.size(), n = matrix[0].size();
+        vector<int> step{n, m-1};
+        int di = 0; // direction
+        int x = 0, y = -1; // position
+        while(step[di % 2]){
+            for(int i = 0; i < step[di % 2]; ++i){
+                x += dir[di][0]; y += dir[di][1];
+                res.push_back(matrix[x][y]);
+            }
+            step[di % 2]--;
+            di = ++di % 4;
+        }
+        return res;
+    }
+    // Simple but too much code
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         int m = matrix.size();
         int n = matrix[0].size();

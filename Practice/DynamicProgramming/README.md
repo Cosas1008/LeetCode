@@ -51,7 +51,7 @@
 - [x] 1235 Max Profit in Job Scheduling ( Hard )
 - [x] 1239 Max Length of a Concatenated String with Unique Characters ( bitset )
 - [x] 1312 Min Insertion to make Palindrome
-- [x] 1335 Min Difficulty of a Job Schedule
+- [x] 1335 Min Difficulty of a Job Schedule ( Hard, stack, optimized )
 - [x] 1388 Pizza with 3n Slices
 - [ ] 1397 Find All Good String ( Hard )
 - [x] 1654 Min Jumps to Reach Home
