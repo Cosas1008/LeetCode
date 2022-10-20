@@ -1,5 +1,19 @@
 class Solution {
 public:
+    string intToRoman(int num) {
+        int roman[13] = {1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000};
+        string strr[13] = {"I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"};
+        string str = "";
+        int idx = 12;
+        while(num > 0){
+            while(num >= roman[idx]){
+                str += strr[idx];
+                num -= roman[idx];
+            }
+            idx--;
+        }
+        return str;
+    }
     int romanToInt(string s) {
         int total = 0 ;
         map<string,int> romanConvert;
@@ -28,8 +42,3 @@ public:
         return total;
     }
 };
-int main() {
-    Solution s;
-    s.romanToInt("DCXXI");
-    return 0;
-}

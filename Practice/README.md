@@ -25,7 +25,6 @@ Geneous Collection
 - [x] 77   Combinations
 - [x] 85   Maximal Rectangle
 - [x] 88   Merge Sorted Array
-- [x] 92   Reverse Linked List II
 - [x] 123  Best Time to Buy and Sell Stock III
 - [ ] 126  Word Ladder II
 - [x] 127  Word Ladder ( Same as 433)
@@ -105,10 +104,6 @@ Geneous Collection
 ### Union Find
 - [x] 737 Sentence Similarity II
 
-
-### 13 Roman to Integer
-map, unordered_map<char, int> is more better way without casing the char to string
-[Clean C++ solution](https://leetcode.com/problems/roman-to-integer/discuss/ "C++ clean solution")
 
 ### 92 Reverse Linked List II
 Hint : To make a dummy head at front   

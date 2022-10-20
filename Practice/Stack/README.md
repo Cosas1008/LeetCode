@@ -10,7 +10,6 @@
 [link](https://leetcode.com/tag/monotonic-stack/)
 - [x] 32   Longest Valid Parentheses
 - [x] 42   Trapping Rain Water
-- [x] 84   Largest Rectangle in Histogram
 - [x] 85   Max Rectangle ( smart )
 - [x] 316  Remove Duplicate Letters ( same as 1081 )
 - [x] 496  Next Greater Element I
