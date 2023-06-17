@@ -3,9 +3,11 @@
 ## Problem List
 [leetcode](https://leetcode.com/tag/binary-search/)
 
+- [x] 4    Median of Two Sorted Array (Hard)
 - [x] 33   Search in Rotated Sorted Array (Classic Binary Search, Solve 153 too)
 - [x] 81   Search in Rotated Sorted Array II ( Solve 154 too )
 - [x] 162  Find Peak Element
+- [ ] 378  Find Kth smallest matrix
 - [x] 483  Smallest Good Base ( Hard )
 - [x] 540  Single Element in a Sorted Array
 - [x] 658  Find K Clostest Element

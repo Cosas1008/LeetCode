@@ -22,16 +22,20 @@ public:
     vector<string> generateParenthesis(int n){
         vector<string> ans;
         string str;
-        helper(ans, str, 0, 0, n);
+        max = n;
+        helper(ans, str, 0, 0);
         return ans;
     }
-    void helper(vector<string>& ans, string str, int left, int right, int max){
-        if(left == max && right == max)
+    void helper(vector<string>& ans, string str, int left, int right){
+        if(left == max && right == max){
             ans.push_back(str);
-        
+            return;
+        }
         if(left > max) return;
-        helper(ans, str + '(', left+1, right, max);
+        helper(ans, str + '(', left+1, right);
         if(left > right)
-            helper(ans, str + ')', left, right+1, max);
+            helper(ans, str + ')', left, right+1);
     }
+private:
+    int max;
 };

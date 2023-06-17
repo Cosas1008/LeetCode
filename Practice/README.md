@@ -15,8 +15,6 @@ Geneous Collection
 - [ ]  Combinations
 ### TODO List
 - [x] 8    String to Integer (atoi)
-- [x] 23   Merge K Sorted Lists
-- [x] 25   Reverse Nodes in k-Group ( Hard )
 - [x] 28   Implement strStr()
 - [x] 34   Find First and Last Position of Element in Sorted Array
 - [x] 41   First Missing Positive
@@ -73,6 +71,7 @@ Geneous Collection
 - [x] 1980 Find Unique Binary String
 - [x] 1943 Describe the Painting
 - [x] 1995 Count Special Quadruplets
+- [x] 2017 Grid Game
 - [x] 2025 Maximum Number of Ways to Partition an Array ( Prefix Suffix )
 - [ ] 2030 Smallest K-Length Subsequence with Occurrence of a Letter
 - [x] 2091 Removeing Min and Max From Array

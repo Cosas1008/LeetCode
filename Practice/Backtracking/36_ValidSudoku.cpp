@@ -19,6 +19,7 @@ private:
                     return false;
         return isValid(board, i, j+1);
     }
+    // Very savvy way of changing the index of i, j, and k into i(row), j(row), and k(3by3 space)
     bool isValidSudoku(vector<vector<char>>& board) {
         int check1[9][9] = {0}, check2[9][9] = {0}, check3[9][9] = {0};
         // check1 : row, check2 : col, check3 : 3by3

@@ -12,6 +12,8 @@ public:
         ls = s.length(), lp = p.length();
         return dfs(s, p, 0, 0);
     }
+    // I don't understand why dfs(s, p, si, pi+2) should be correct?
+    // It is because we would like to skip the 'a*' so we jump two steps away regardless of unmatch first character
     bool dfs(string& s, string& p, int si, int pi){
         if(si >= ls && pi >= lp) return true;
         if(pi >= lp) return false;

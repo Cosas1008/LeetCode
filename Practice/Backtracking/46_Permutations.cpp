@@ -18,7 +18,7 @@ public:
         for(int i = begin; i < nums.size(); i++){
             swap(nums[begin], nums[i]);
             helper(ans, nums, begin+1);
-            swap(nums[begin], nums[i]); // reverse
+            swap(nums[begin], nums[i]);
         }
     }
 };

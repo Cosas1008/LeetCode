@@ -56,14 +56,3 @@ public:
     }
 
 };
-
-
-int main()
-{
-    int y;
-    y = 5;					// any number
-    Solution s;
-    int result = s.findComplement(y);
-    cout << "Result : " << result <<endl;
-    return 0;
-}

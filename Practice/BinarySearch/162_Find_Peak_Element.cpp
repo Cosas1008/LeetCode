@@ -19,16 +19,4 @@ public:
         }
         return lo;
     }
-    // Direct O(N^2)
-    int findPeakElement(vector<int>& nums) {
-        int idx = 0;
-        long long int peak = LLONG_MIN;
-        for(int i = 0; i < nums.size(); ++i){
-            if(peak < nums[i]){
-                peak = nums[i];
-                idx = i;
-            }
-        }
-        return idx;
-    }
 };

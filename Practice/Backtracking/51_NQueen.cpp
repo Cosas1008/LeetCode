@@ -30,14 +30,4 @@ public:
             }
         }
     }
-    vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> ans;
-        vector<string> board(n);
-        string row(n, '.');
-        for(int i = 0; i < n; i++){
-            board[i] = row;
-        }
-        helper(n, ans, 0, board);
-        return ans;
-    }
 };

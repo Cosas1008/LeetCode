@@ -19,7 +19,7 @@ private:
       ret.push_back(nums);
       return;
     }
-    for(int k = i; k < j; k++){
+    for(int k = i; k < j; k++){ // should be k = i + 1?
       if(i != k && nums[i] == nums[k]) continue;
       swap(nums[i], nums[k]);
       helper(nums, i + 1, j, ret);
